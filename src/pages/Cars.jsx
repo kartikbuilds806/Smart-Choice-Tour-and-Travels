@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { FaUserFriends, FaLuggageCart, FaCogs } from 'react-icons/fa';
 
 const Cars = () => {
@@ -12,6 +13,10 @@ const Cars = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
+      <Helmet>
+        <title>Car & Taxi Rental Service | Smart Choice Tour & Travels</title>
+        <meta name="description" content="Browse our premium fleet of cars and taxi services for outstation trips, airport transfers, and local sightseeing." />
+      </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/30 z-0"></div>

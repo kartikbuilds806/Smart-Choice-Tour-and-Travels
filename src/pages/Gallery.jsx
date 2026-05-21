@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaTimes } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 const images = [
   '/images/Our Gallery/WhatsApp Image 2026-03-27 at 21.14.21.jpeg',
@@ -24,6 +25,10 @@ const Gallery = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20 min-h-screen">
+      <Helmet>
+        <title>Travel Gallery | Smart Choice Tour & Travels Haridwar</title>
+        <meta name="description" content="View photos of our fleet, past trips, and stunning destinations served by Smart Choice Tour & Travels." />
+      </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/20 z-0"></div>

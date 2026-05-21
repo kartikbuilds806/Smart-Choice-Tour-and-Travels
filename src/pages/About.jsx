@@ -1,9 +1,14 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { FaCheckCircle } from 'react-icons/fa';
 
 const About = () => {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pt-10 pb-20">
+      <Helmet>
+        <title>About Us | Smart Choice Tour & Travels Haridwar</title>
+        <meta name="description" content="Learn about Smart Choice Tour & Travels—our mission, vision, and commitment to safe, affordable travel in Haridwar and beyond." />
+      </Helmet>
       
       {/* Header */}
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">

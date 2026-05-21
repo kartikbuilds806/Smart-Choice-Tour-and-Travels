@@ -1,9 +1,14 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
+      <Helmet>
+        <title>Contact Us | Smart Choice Tour & Travels | +91 8273490102</title>
+        <meta name="description" content="Get in touch with Smart Choice Tour & Travels in Haridwar for bookings, inquiries, and customer support." />
+      </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/connected.png')] opacity-10 z-0"></div>

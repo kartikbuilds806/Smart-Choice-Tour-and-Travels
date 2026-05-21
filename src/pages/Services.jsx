@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { FaMapMarkedAlt, FaUsers, FaPlane, FaCar, FaSuitcaseRolling, FaMosque } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +15,10 @@ const Services = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
+      <Helmet>
+        <title>Tour Packages & Travel Services | Smart Choice Tours Haridwar</title>
+        <meta name="description" content="Explore our tour packages, group bookings, airport transfers, and customized travel services tailored for comfort and convenience." />
+      </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/black-scales.png')] opacity-30 z-0"></div>

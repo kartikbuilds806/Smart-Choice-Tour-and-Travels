@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaWhatsapp, FaCalendarAlt, FaMapMarkerAlt, FaCarSide, FaUsers } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 const Book = () => {
   const [formData, setFormData] = useState({
@@ -39,6 +40,10 @@ Vehicle: ${formData.vehicle}`;
 
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pb-20">
+      <Helmet>
+        <title>Book Tour Package | Smart Choice Tour & Travels Haridwar</title>
+        <meta name="description" content="Plan and book your next trip with Smart Choice Tour & Travels—fill the booking form and contact us via WhatsApp." />
+      </Helmet>
       
       <div className="bg-slate-900 text-white py-16 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/40 z-0"></div>

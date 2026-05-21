@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { FaPhoneAlt, FaWhatsapp, FaCar, FaMapMarkedAlt, FaUsers, FaPlane, FaSuitcaseRolling, FaStar, FaQuoteLeft } from 'react-icons/fa';
 
 // Mock images (using the ones we processed)
@@ -62,6 +63,10 @@ const Home = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+      <Helmet>
+        <title>Smart Choice Tour & Travels | Best Tour Packages from Haridwar</title>
+        <meta name="description" content="Affordable tour packages, taxi services, and curated travel experiences from Haridwar. Book your next trip with Smart Choice Tour & Travels." />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <AnimatePresence mode="wait">
