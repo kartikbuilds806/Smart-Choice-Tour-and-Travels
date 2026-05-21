@@ -37,7 +37,7 @@ const Services = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 flex flex-col group"
             >
               <div className="w-full h-56 overflow-hidden relative border-b-4 border-primary">
-                <img src={service.img} alt={service.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src={service.img} alt={service.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" width="1200" height="800" />
               </div>
               <div className="p-8 flex flex-col flex-grow text-center">
                 <h3 className="text-2xl font-bold font-poppins mb-3 text-slate-800">{service.title}</h3>

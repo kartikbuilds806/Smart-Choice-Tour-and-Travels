@@ -33,7 +33,7 @@ const About = () => {
           </div>
           <div className="relative">
             <div className="absolute inset-0 bg-primary/20 rounded-3xl transform translate-x-4 translate-y-4"></div>
-            <img src="/gallery/img2.jpeg" alt="Travel Landscape" className="rounded-3xl relative z-10 w-full object-cover h-80 shadow-2xl" />
+            <img src="/gallery/img2.jpeg" alt="Travel Landscape" className="rounded-3xl relative z-10 w-full object-cover h-80 shadow-2xl" loading="lazy" width="1200" height="800" />
           </div>
         </div>
 

@@ -77,8 +77,12 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="absolute inset-0 w-full h-full object-cover z-0"
-            alt="Hero Background"
+              className="absolute inset-0 w-full h-full object-cover z-0"
+              alt="Hero Background"
+              loading="eager"
+              fetchpriority="high"
+              width="1920"
+              height="1080"
           />
         </AnimatePresence>
         <div className="absolute inset-0 bg-black/40 z-10" />
@@ -147,7 +151,7 @@ const Home = () => {
                 className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 flex flex-col items-center group cursor-pointer"
               >
                 <div className="w-full h-48 overflow-hidden relative">
-                  <img src={service.img} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src={service.img} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" width="1200" height="800" />
                 </div>
                 <div className="p-8 flex flex-col items-center flex-grow text-center">
                   <h3 className="text-xl font-semibold mb-3 text-slate-800">{service.title}</h3>
@@ -176,7 +180,7 @@ const Home = () => {
                 whileHover={{ scale: 1.03 }}
                 className="relative h-64 rounded-2xl overflow-hidden group shadow-lg cursor-pointer"
               >
-                <img src={img} alt={city} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <img src={img} alt={city} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" width="1024" height="640" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                   <h3 className="text-2xl font-bold text-white tracking-wide">{city}</h3>
                 </div>
@@ -201,7 +205,7 @@ const Home = () => {
             ].map((car, idx) => (
               <div key={idx} className="bg-slate-800 rounded-2xl overflow-hidden shadow-2xl border border-slate-700 group">
                 <div className="h-56 bg-white relative overflow-hidden flex items-center justify-center">
-                  <img src={car.img} alt={car.name} className="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500" />
+                  <img src={car.img} alt={car.name} className="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500" loading="lazy" width="1024" height="640" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{car.name}</h3>

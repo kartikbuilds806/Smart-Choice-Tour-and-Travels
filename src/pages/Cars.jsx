@@ -35,7 +35,7 @@ const Cars = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-xl border border-slate-100 flex flex-col"
             >
               <div className="h-56 bg-slate-200 relative">
-                <img src={car.img} alt={car.name} className="w-full h-full object-cover" />
+                <img src={car.img} alt={car.name} className="w-full h-full object-cover" loading="lazy" width="1024" height="640" />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 text-xs font-bold rounded-full text-slate-800 shadow-sm">
                   {car.type}
                 </div>

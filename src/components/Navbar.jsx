@@ -38,7 +38,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src="/images/Logo/logo.png" alt="Smart Choice Tour & Travels Logo" className="h-[3.3rem] w-auto" />
+          <img src="/images/Logo/logo.png" alt="Smart Choice Tour & Travels Logo" className="h-[3.3rem] w-auto" loading="lazy" width="132" height="52" />
         </Link>
 
         {/* Desktop Nav */}

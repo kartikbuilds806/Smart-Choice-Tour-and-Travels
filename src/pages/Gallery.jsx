@@ -52,6 +52,8 @@ const Gallery = () => {
                 alt={`Gallery image ${idx + 1}`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 loading="lazy"
+                width="800"
+                height="800"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                  <span className="text-white opacity-0 group-hover:opacity-100 font-medium tracking-wider uppercase text-sm border border-white px-4 py-2 rounded">
@@ -86,6 +88,9 @@ const Gallery = () => {
               src={selectedImg}
               alt="Enlarged gallery view"
               className="max-w-full max-h-full object-contain rounded-lg shadow-2xl cursor-default"
+              loading="lazy"
+              width="1600"
+              height="1200"
               onClick={(e) => e.stopPropagation()}
             />
           </motion.div>
