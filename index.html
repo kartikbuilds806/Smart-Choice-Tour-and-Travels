@@ -50,5 +50,78 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Smart Choice Tour and Travels",
+      "url": "https://www.thesmartchoicetours.com",
+      "logo": "https://www.thesmartchoicetours.com/favicon.png",
+      "image": "https://www.thesmartchoicetours.com/images/og-image.jpg",
+      "description": "Best travel agency in Haridwar offering Char Dham Yatra packages, hill station tours, airport transfers and taxi services across Uttarakhand and India.",
+      "telephone": "+918273490102",
+      "email": "princerajput68768@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opp. Railway Station, Shikhu Pur, Devpura",
+        "addressLocality": "Haridwar",
+        "addressRegion": "Uttarakhand",
+        "postalCode": "249401",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "29.9457",
+        "longitude": "78.1642"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "08:00",
+          "closes": "21:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.thesmartchoicetours.com"
+      ],
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, UPI, Bank Transfer",
+      "areaServed": [
+        "Haridwar", "Rishikesh", "Dehradun", "Mussoorie", 
+        "Kedarnath", "Badrinath", "Gangotri", "Yamunotri"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tour Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "TouristTrip",
+              "name": "Char Dham Yatra Package"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "TouristTrip",
+              "name": "Kedarnath Package"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "TouristTrip",
+              "name": "Mussoorie Tour Package"
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </body>
 </html>
