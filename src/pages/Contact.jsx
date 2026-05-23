@@ -19,6 +19,9 @@ const Contact = () => {
       </div>
 
       <div className="container mx-auto px-4 mt-16 max-w-6xl">
+        <p className="text-slate-600 leading-relaxed text-center mb-12 max-w-4xl mx-auto">
+          Get in touch with Smart Choice Tour and Travels — Haridwar's most trusted travel agency. We are located opposite Haridwar Railway Station, Shikhu Pur, Devpura, Haridwar, Uttarakhand 249401. Call us at +91 8273490102 or WhatsApp for instant booking. We are available 7 days a week from 8 AM to 9 PM.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           
           {/* Contact Details */}

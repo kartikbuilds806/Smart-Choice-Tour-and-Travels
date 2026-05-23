@@ -27,6 +27,9 @@ const Cars = () => {
       </div>
 
       <div className="container mx-auto px-4 mt-16 max-w-6xl">
+        <p className="text-slate-600 leading-relaxed text-center mb-12 max-w-4xl mx-auto">
+          Our premium fleet of well-maintained AC vehicles is available for outstation trips, local taxi service, airport transfers, and Char Dham Yatra from Haridwar. All cars are sanitized, GPS-tracked, and driven by experienced professionals. Choose from Sedan, SUV, Innova Crysta, or Tempo Traveller based on your group size and budget.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {fleet.map((car, idx) => (
             <motion.div

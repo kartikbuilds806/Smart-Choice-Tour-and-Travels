@@ -15,7 +15,7 @@ const About = () => {
         <div className="absolute inset-0 bg-blue-900/40 z-0"></div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-4">About Us</h1>
-          <p className="text-blue-200 uppercase tracking-widest text-sm">Best Tour and Travels Service in Bhimgoda</p>
+          <p className="text-blue-200 uppercase tracking-widest text-sm">Best Travel Agency in Haridwar, Uttarakhand</p>
         </div>
       </div>
 
@@ -30,10 +30,13 @@ const About = () => {
             <p className="text-slate-600 leading-relaxed">
               Whether you are planning a spiritual journey to the Char Dham, a relaxing weekend getaway, or require prompt airport transfers, we ensure a seamless and unforgettable experience. Our fleet of well-maintained vehicles and experienced drivers guarantee your safety and comfort on every journey.
             </p>
+            <p className="text-slate-600 leading-relaxed mt-6">
+              Based in Haridwar near the Railway Station, Smart Choice Tour and Travels has been serving pilgrims and tourists for years. We specialize in Char Dham Yatra packages, Kedarnath taxi service, Mussoorie day trips, and corporate travel solutions across Uttarakhand. Our team of trained drivers and travel experts ensures every journey is safe, comfortable, and memorable. We are proud to be one of the most affordable and reliable travel agencies in Haridwar.
+            </p>
           </div>
           <div className="relative">
             <div className="absolute inset-0 bg-primary/20 rounded-3xl transform translate-x-4 translate-y-4"></div>
-            <img src="/gallery/img2.jpeg" alt="Travel Landscape" className="rounded-3xl relative z-10 w-full object-cover h-80 shadow-2xl" loading="lazy" width="1200" height="800" />
+            <img src="/images/About/Gemini_Generated_Image_uw1i3nuw1i3nuw1i.png" alt="Travel Landscape" className="rounded-3xl relative z-10 w-full object-cover h-80 shadow-2xl" loading="lazy" width="1200" height="800" />
           </div>
         </div>
 

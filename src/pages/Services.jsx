@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
-    { title: 'Local Sightseeing', img: '/images/Our Services/sightseeing.jpg', desc: 'Explore the spiritual and scenic beauty of Haridwar and Rishikesh with our guided local sightseeing tours.' },
-    { title: 'Char Dham Yatra', img: '/images/Our Services/char-dham yatra.jpg', desc: 'Embark on a divine spiritual journey to the sacred shrines of Badrinath, Kedarnath, Gangotri, and Yamunotri.' },
-    { title: 'Group Booking', img: '/images/Our Services/grouup booking.jpeg', desc: 'Specialized arrangements for large groups, ensuring everyone travels together comfortably and economically.' },
-    { title: 'Family Tours', img: '/images/Our Services/family tour.jpg', desc: 'Handcrafted itineraries focusing on family safety, comfort, and enjoyable experiences for all age groups.' },
-    { title: 'Airport Transfer', img: '/images/Our Services/Airport transfer.jpg', desc: 'Reliable point-to-point airport and railway station pickup/drop services ensuring you never miss a flight.' },
-    { title: 'Taxi Services', img: '/images/Our Services/affordable taxi.png', desc: 'Affordable fixed-rate taxi services across North India with a modern fleet and experienced drivers.' }
+    { title: 'Local Sightseeing', img: '/images/Our Services/sightseeing.jpg', desc: 'Explore the spiritual ghats of Haridwar, Mansa Devi temple, Har Ki Pauri, and Rishikesh with our expert local guides. Best local sightseeing tours from Haridwar at affordable prices.' },
+    { title: 'Char Dham Yatra', img: '/images/Our Services/char-dham yatra.jpg', desc: 'Complete Char Dham Yatra package from Haridwar covering Yamunotri, Gangotri, Kedarnath and Badrinath with comfortable travel arrangements including AC vehicle and experienced driver.' },
+    { title: 'Group Booking', img: '/images/Our Services/grouup booking.jpeg', desc: 'Affordable group tour packages from Haridwar for 10 to 50 people. Special discounts on Tempo Traveller and bus bookings for pilgrimages, corporate trips, and family tours.' },
+    { title: 'Family Tours', img: '/images/Our Services/family tour.jpg', desc: 'Safe and comfortable family tour packages from Haridwar to Mussoorie, Nainital, Shimla, and Manali. Child-friendly itineraries with AC vehicles and experienced drivers.' },
+    { title: 'Airport Transfer', img: '/images/Our Services/Airport transfer.jpg', desc: 'Reliable airport transfer service from Haridwar to Dehradun Airport (Jolly Grant), Delhi IGI Airport, and all major airports. Fixed rates, on-time pickup guaranteed.' },
+    { title: 'Taxi Services', img: '/images/Our Services/affordable taxi.png', desc: 'Affordable taxi service from Haridwar to Rishikesh, Dehradun, Mussoorie, Kedarnath, Badrinath, and anywhere in India. Available 24/7, AC vehicles, experienced drivers.' }
   ];
 
   return (

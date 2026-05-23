@@ -166,6 +166,15 @@ const Home = () => {
         </div>
       </section>
 
+      {/* SEO Content Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 md:px-8">
+          <p className="text-slate-600 leading-relaxed text-center max-w-4xl mx-auto">
+            Smart Choice Tour and Travels is Haridwar's most trusted travel agency, offering premium tour packages and taxi services across Uttarakhand and North India. Whether you are planning a spiritual Char Dham Yatra, a family trip to Mussoorie, or need a reliable taxi from Haridwar to Kedarnath, we have you covered. Our experienced drivers, well-maintained AC vehicles, and affordable pricing make us the first choice for thousands of happy travelers every year. Located near Haridwar Railway Station, we serve tourists from Delhi, Dehradun, Rishikesh, and across India. Book your tour package today by calling +91 8273490102 or WhatsApp us directly.
+          </p>
+        </div>
+      </section>
+
       {/* Popular Destinations */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-8">
