@@ -30,7 +30,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold text-white font-poppins mb-6">Quick Links</h3>
           <ul className="space-y-3">
-            {['Home', 'About', 'Services', 'Cars', 'Gallery', 'Contact'].map((link) => (
+            {['Home', 'About', 'Services', 'Cars', 'Travel Guides', 'Gallery', 'Contact'].map((link) => (
               <li key={link}>
                 <Link to={link === 'Home' ? '/' : `/${link.toLowerCase()}`} className="hover:text-accent transition-colors flex items-center">
                   <span className="mr-2 text-accent text-xs">▼</span>
