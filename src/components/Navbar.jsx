@@ -39,11 +39,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src="/images/Logo/Gemini_Generated_Image_uw1i3nuw1i3nuw1i.png" alt="Smart Choice Tour & Travels Logo" className="h-[3.3rem] w-auto" loading="lazy" width="132" height="52" />
+          <img src="/images/Logo/Gemini_Generated_Image_uw1i3nuw1i3nuw1i.png" alt="Smart Choice Tour and Travels — Best Travel Agency in Haridwar" className="h-[3.3rem] w-auto" loading="eager" fetchpriority="high" width="132" height="52" />
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 items-center font-medium">
+        <nav className="hidden md:flex space-x-6 items-center font-medium" aria-label="Main navigation">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -76,6 +76,8 @@ const Navbar = () => {
         <button
           className="md:hidden text-2xl text-slate-800 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={isOpen}
         >
           {isOpen ? <FiX /> : <FiMenu />}
         </button>

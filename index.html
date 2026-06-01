@@ -5,28 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary Meta Tags -->
-    <title>Smart Choice Tour & Travels | Best Tour Packages from Haridwar</title>
-    <meta name="title" content="Smart Choice Tour & Travels | Best Tour Packages from Haridwar" />
-    <meta name="description" content="Smart Choice Tour & Travels is the best travel agency in Haridwar. We offer Char Dham Yatra packages, hill station tours, airport transfers & affordable taxi services across Uttarakhand. Call +91 8273490102 to book now." />
-    <meta name="keywords" content="tour packages from Haridwar, Char Dham Yatra package, Haridwar travel agency, taxi service Haridwar, Uttarakhand tour packages, Kedarnath package, Mussoorie trip, affordable tours India" />
+    <title>Best Travel Agency in Haridwar | Char Dham & Tour Packages — Smart Choice Tours</title>
+    <meta name="title" content="Best Travel Agency in Haridwar | Char Dham & Tour Packages — Smart Choice Tours" />
+    <meta name="description" content="Smart Choice Tour & Travels — Best travel agency in Haridwar, Uttarakhand. Book Char Dham Yatra, Kedarnath, Mussoorie & Nainital tour packages. Affordable taxi service. Call +91 8273490102." />
+    <meta name="keywords" content="travel agency Haridwar, Char Dham Yatra package Haridwar, Kedarnath tour package, Mussoorie package from Haridwar, taxi service Haridwar, tour operator Uttarakhand, best travel agency Haridwar" />
     <meta name="author" content="Smart Choice Tour and Travels" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://www.thesmartchoicetours.com/" />
+
+    <!-- Geo Meta Tags for Local SEO -->
+    <meta name="geo.region" content="IN-UT" />
+    <meta name="geo.placename" content="Haridwar, Uttarakhand, India" />
+    <meta name="geo.position" content="29.9457;78.1642" />
+    <meta name="ICBM" content="29.9457, 78.1642" />
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.thesmartchoicetours.com/" />
-    <meta property="og:title" content="Smart Choice Tour & Travels | Best Tour Packages from Haridwar" />
-    <meta property="og:description" content="Smart Choice Tour & Travels is the best travel agency in Haridwar. We offer Char Dham Yatra packages, hill station tours, airport transfers & affordable taxi services across Uttarakhand. Call +91 8273490102 to book now." />
+    <meta property="og:title" content="Best Travel Agency in Haridwar | Char Dham & Tour Packages — Smart Choice Tours" />
+    <meta property="og:description" content="Book Char Dham Yatra, Kedarnath tour, Mussoorie packages & taxi services from Haridwar. 500+ happy customers. 4.9★ Google rating. Call +91 8273490102." />
     <meta property="og:image" content="https://www.thesmartchoicetours.com/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_IN" />
     <meta property="og:site_name" content="Smart Choice Tour and Travels" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://www.thesmartchoicetours.com/" />
-    <meta name="twitter:title" content="Smart Choice Tour & Travels | Best Tour Packages from Haridwar" />
-    <meta name="twitter:description" content="Book affordable tour packages, Char Dham Yatra, hill station trips & taxi services from Haridwar." />
+    <meta name="twitter:title" content="Best Travel Agency in Haridwar | Smart Choice Tour & Travels" />
+    <meta name="twitter:description" content="Book Char Dham Yatra, Kedarnath, Mussoorie & Nainital tour packages from Haridwar. Affordable taxi. Call +91 8273490102." />
     <meta name="twitter:image" content="https://www.thesmartchoicetours.com/images/og-image.jpg" />
 
     <!-- Favicon -->
@@ -38,89 +46,151 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="preload" href="/images/Home page/haridwar.jpg" as="image" />
+
     <!-- Google Analytics GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQQNR7S28Q"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-BQQNR7S28Q');
+      gtag('config', 'G-BQQNR7S28Q', {
+        send_page_view: true,
+      });
     </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 
-    <!-- Local Business Schema -->
+    <!-- Enhanced Schema Markup — TravelAgency + LocalBusiness + AggregateRating + WebSite -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TravelAgency",
-      "name": "Smart Choice Tour and Travels",
-      "url": "https://www.thesmartchoicetours.com",
-      "logo": "https://www.thesmartchoicetours.com/favicon.png",
-      "image": "https://www.thesmartchoicetours.com/images/og-image.jpg",
-      "description": "Best travel agency in Haridwar offering Char Dham Yatra packages, hill station tours, airport transfers and taxi services across Uttarakhand and India.",
-      "telephone": "+918273490102",
-      "email": "princerajput68768@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Opp. Railway Station, Shikhu Pur, Devpura",
-        "addressLocality": "Haridwar",
-        "addressRegion": "Uttarakhand",
-        "postalCode": "249401",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "29.9457",
-        "longitude": "78.1642"
-      },
-      "openingHoursSpecification": [
+      "@graph": [
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-          "opens": "08:00",
-          "closes": "21:00"
-        }
-      ],
-      "sameAs": [
-        "https://www.thesmartchoicetours.com"
-      ],
-      "priceRange": "₹₹",
-      "currenciesAccepted": "INR",
-      "paymentAccepted": "Cash, UPI, Bank Transfer",
-      "areaServed": [
-        "Haridwar", "Rishikesh", "Dehradun", "Mussoorie", 
-        "Kedarnath", "Badrinath", "Gangotri", "Yamunotri"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tour Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "TouristTrip",
-              "name": "Char Dham Yatra Package"
-            }
+          "@type": ["TravelAgency", "LocalBusiness"],
+          "@id": "https://www.thesmartchoicetours.com/#organization",
+          "name": "Smart Choice Tour and Travels",
+          "alternateName": ["Smart Choice Tours", "Smart Choice Travels Haridwar"],
+          "url": "https://www.thesmartchoicetours.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thesmartchoicetours.com/favicon.png",
+            "width": 132,
+            "height": 52
           },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "TouristTrip",
-              "name": "Kedarnath Package"
-            }
+          "image": "https://www.thesmartchoicetours.com/images/og-image.jpg",
+          "description": "Smart Choice Tour and Travels is the best travel agency in Haridwar, Uttarakhand. We offer Char Dham Yatra packages, Kedarnath tours, Mussoorie packages, Nainital trips, and affordable taxi services across Uttarakhand and India.",
+          "telephone": "+91-8273490102",
+          "email": "smartchoicetoursandtravels@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bhimgoda, Opposite Railway Station",
+            "addressLocality": "Haridwar",
+            "addressRegion": "Uttarakhand",
+            "postalCode": "249401",
+            "addressCountry": "IN"
           },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "TouristTrip",
-              "name": "Mussoorie Tour Package"
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 29.9457,
+            "longitude": 78.1642
+          },
+          "hasMap": "https://maps.google.com/?q=Haridwar+Railway+Station+Bhimgoda",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+              "opens": "08:00",
+              "closes": "21:00"
             }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/profile.php?id=61576416869040",
+            "https://www.instagram.com/smartchoicetoursandtravels/",
+            "https://x.com/SmartChoiceTour"
+          ],
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, UPI, Bank Transfer",
+          "areaServed": [
+            {"@type": "City", "name": "Haridwar"},
+            {"@type": "City", "name": "Rishikesh"},
+            {"@type": "City", "name": "Dehradun"},
+            {"@type": "City", "name": "Mussoorie"},
+            {"@type": "City", "name": "Kedarnath"},
+            {"@type": "City", "name": "Badrinath"},
+            {"@type": "State", "name": "Uttarakhand"}
+          ],
+          "knowsAbout": [
+            "Char Dham Yatra",
+            "Kedarnath Pilgrimage",
+            "Mussoorie Tourism",
+            "Uttarakhand Travel",
+            "Taxi Service Haridwar",
+            "Airport Transfer Dehradun"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "7",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {"@type": "Person", "name": "Gordhan Rawat"},
+              "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+              "datePublished": "2026-05-26",
+              "reviewBody": "Had an amazing experience with Smart Choice Tour & Travels! Everything was perfectly managed from start to finish. The vehicle was clean and comfortable, the driver was professional and friendly. Highly recommended for Chardham Yatra and Uttarakhand tours."
+            },
+            {
+              "@type": "Review",
+              "author": {"@type": "Person", "name": "Shalu Singh"},
+              "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+              "datePublished": "2026-05-26",
+              "reviewBody": "It was a great experience with this travel company. Prince (Driver) was polite and his driving skills are fantastic on dangerous mountain roads. The car was comfortable and I am very satisfied. I will always book with Smart Choice Tours."
+            },
+            {
+              "@type": "Review",
+              "author": {"@type": "Person", "name": "Priyanshu Kashyap"},
+              "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+              "datePublished": "2026-05-25",
+              "reviewBody": "Excellent service by Smart Choice Tour & Travels! The trip was well organized and stress-free. Vehicle was neat and comfortable, driver was cooperative. Truly trustworthy for family trips and Chardham Yatra."
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Tour Packages from Haridwar",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Char Dham Yatra Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/char-dham-yatra"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Kedarnath Tour Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/kedarnath"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Mussoorie Tour Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/mussoorie"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Nainital Tour Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/nainital"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Rishikesh Tour Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/rishikesh"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Badrinath Tour Package from Haridwar", "url": "https://www.thesmartchoicetours.com/packages/badrinath"}},
+              {"@type": "Offer", "itemOffered": {"@type": "TouristTrip", "name": "Haridwar Local Sightseeing", "url": "https://www.thesmartchoicetours.com/packages/haridwar-sightseeing"}}
+            ]
           }
-        ]
-      }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.thesmartchoicetours.com/#website",
+          "url": "https://www.thesmartchoicetours.com",
+          "name": "Smart Choice Tour and Travels",
+          "description": "Best travel agency in Haridwar offering Char Dham Yatra, Kedarnath tours, Mussoorie packages & taxi services.",
+          "publisher": {"@id": "https://www.thesmartchoicetours.com/#organization"},
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.thesmartchoicetours.com/guides?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
     }
     </script>
   </body>
