@@ -11,11 +11,11 @@ const Guides = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Uttarakhand Travel Guides 2026 | Haridwar, Kedarnath, Char Dham Tips — Smart Choice Tours</title>
-        <meta name="description" content="Expert Uttarakhand travel guides covering Haridwar, Kedarnath, Char Dham Yatra, Mussoorie, Rishikesh. Cost guides, best time to visit, itinerary tips from Smart Choice Tour & Travels." />
+        <title>Uttarakhand Travel Guides | Smart Choice Tours</title>
+        <meta name="description" content="Read expert travel guides on Haridwar, Kedarnath, Char Dham Yatra, and Mussoorie. Get travel tips, itinerary planning, and cost guides." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/guides" />
-        <meta property="og:title" content="Uttarakhand Travel Guides 2026 | Smart Choice Tour & Travels" />
-        <meta property="og:description" content="Complete travel guides for Haridwar, Kedarnath, Char Dham, Mussoorie & Rishikesh. Expert tips from local travel specialists." />
+        <meta property="og:title" content="Uttarakhand Travel Guides | Smart Choice Tours" />
+        <meta property="og:description" content="Read expert travel guides on Haridwar, Kedarnath, Char Dham Yatra, and Mussoorie. Get travel tips, itinerary planning, and cost guides." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/guides" />
       </Helmet>
 

@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Contact Us | Smart Choice Tour & Travels | +91 8273490102</title>
-        <meta name="description" content="Get in touch with Smart Choice Tour & Travels in Haridwar for bookings, inquiries, and customer support." />
+        <title>Contact Us | Smart Choice Tour & Travels</title>
+        <meta name="description" content="Contact Smart Choice Tour & Travels in Haridwar. Get in touch for bookings, custom tour quotes, and outstation taxi inquiries. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/contact" />
       </Helmet>
       
@@ -36,7 +36,7 @@ const Contact = () => {
                   <FaMapMarkerAlt size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-slate-800">Office Address</h4>
+                  <h3 className="font-bold text-lg text-slate-800">Office Address</h3>
                   <p className="text-slate-600 mt-1">Opp. Railway Station, Bhimgoda,<br/>Haridwar, Uttarakhand, India</p>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                   <FaPhoneAlt size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-slate-800">Phone</h4>
+                  <h3 className="font-bold text-lg text-slate-800">Phone</h3>
                   <p className="text-slate-600 mt-1">
                     <a href="tel:+918273490102" className="hover:text-primary transition-colors">+91 8273490102</a>
                   </p>
@@ -58,7 +58,7 @@ const Contact = () => {
                   <FaWhatsapp size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-slate-800">WhatsApp</h4>
+                  <h3 className="font-bold text-lg text-slate-800">WhatsApp</h3>
                   <p className="text-slate-600 mt-1">
                     <a href="https://wa.me/918273490102?text=Hello" target="_blank" rel="noreferrer" className="hover:text-green-600 transition-colors">+91 8273490102</a>
                   </p>
@@ -70,7 +70,7 @@ const Contact = () => {
                   <FaEnvelope size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-slate-800">Email Address</h4>
+                  <h3 className="font-bold text-lg text-slate-800">Email Address</h3>
                   <p className="text-slate-600 mt-1">
                     <a href="mailto:smartchoicetoursandtravels@gmail.com" className="hover:text-primary transition-colors">smartchoicetoursandtravels@gmail.com</a>
                   </p>

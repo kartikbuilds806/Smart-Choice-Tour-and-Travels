@@ -27,8 +27,8 @@ const Gallery = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20 min-h-screen">
       <Helmet>
-        <title>Travel Gallery | Smart Choice Tour & Travels — Haridwar, Kedarnath, Mussoorie</title>
-        <meta name="description" content="View photos of our happy customers, premium fleet, and beautiful destinations — Haridwar, Kedarnath, Mussoorie, Rishikesh, Nainital. Smart Choice Tour & Travels." />
+        <title>Travel Gallery | Smart Choice Tour & Travels</title>
+        <meta name="description" content="Browse photos of our happy customers, premium vehicle fleet, and beautiful travel destinations across Haridwar, Kedarnath, and Uttarakhand." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/gallery" />
       </Helmet>
 

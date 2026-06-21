@@ -125,12 +125,27 @@ const Home = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <Helmet>
-        <title>Best Travel Agency in Haridwar | Char Dham & Tour Packages — Smart Choice Tours</title>
-        <meta name="description" content="Smart Choice Tour & Travels — Best travel agency in Haridwar, Uttarakhand. Book Char Dham Yatra, Kedarnath, Mussoorie & Nainital tour packages. Affordable taxi service. Call +91 8273490102." />
+        <title>Best Travel Agency in Haridwar | Smart Choice Tours</title>
+        <meta name="description" content="Best travel agency in Haridwar. Book Char Dham Yatra, Kedarnath tours, Mussoorie packages & affordable taxi services. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/" />
-        <meta property="og:title" content="Best Travel Agency in Haridwar | Char Dham & Tour Packages — Smart Choice Tours" />
-        <meta property="og:description" content="Book Char Dham Yatra, Kedarnath tour, Mussoorie packages & taxi services from Haridwar. 500+ happy customers. Call +91 8273490102." />
+        <meta property="og:title" content="Best Travel Agency in Haridwar | Smart Choice Tours" />
+        <meta property="og:description" content="Best travel agency in Haridwar. Book Char Dham Yatra, Kedarnath tours, Mussoorie packages & affordable taxi services. Call +91 8273490102." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'TravelAgency',
+            'name': 'Smart Choice Tour and Travels',
+            'address': {
+              '@type': 'PostalAddress',
+              'addressLocality': 'Haridwar',
+              'addressRegion': 'Uttarakhand',
+              'addressCountry': 'IN'
+            },
+            'telephone': '+91 8273490102',
+            'url': 'https://www.thesmartchoicetours.com'
+          })}
+        </script>
       </Helmet>
 
       {/* ===== HERO SECTION ===== */}

@@ -23,11 +23,11 @@ const About = () => {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>About Us — Smart Choice Tour & Travels | Trusted Travel Agency in Haridwar</title>
-        <meta name="description" content="Smart Choice Tour & Travels is a trusted travel agency in Haridwar, Uttarakhand. We offer Char Dham Yatra, Kedarnath tours, Mussoorie trips & affordable taxi services. Located at Bhimgoda, Haridwar." />
+        <title>About Us | Smart Choice Tour & Travels Haridwar</title>
+        <meta name="description" content="About Smart Choice Tour & Travels, a trusted travel agency in Haridwar. Learn about our affordable Char Dham Yatra, taxi services, and team." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/about" />
-        <meta property="og:title" content="About Smart Choice Tour & Travels — Haridwar's Trusted Travel Agency" />
-        <meta property="og:description" content="Learn about Smart Choice Tour & Travels. Trusted travel agency in Haridwar offering Char Dham Yatra, Kedarnath tours, taxi services & more." />
+        <meta property="og:title" content="About Us | Smart Choice Tour & Travels Haridwar" />
+        <meta property="og:description" content="About Smart Choice Tour & Travels, a trusted travel agency in Haridwar. Learn about our affordable Char Dham Yatra, taxi services, and team." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/about" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>

@@ -255,7 +255,7 @@ const CharDham = () => {
       {/* Internal Link CTA */}
       <div className="container mx-auto px-4 md:px-8 max-w-4xl mt-8 mb-4">
         <div className="bg-slate-900 rounded-2xl p-8 text-center text-white">
-          <h3 className="text-2xl font-bold font-poppins mb-3">Ready for Your Char Dham Yatra?</h3>
+          <h2 className="text-2xl font-bold font-poppins mb-3">Ready for Your Char Dham Yatra?</h2>
           <p className="text-slate-300 mb-6">
             Also explore our <Link to="/packages/kedarnath" className="text-accent hover:underline">Kedarnath package</Link>, <Link to="/packages/badrinath" className="text-accent hover:underline">Badrinath tour</Link>, or read our <Link to="/guides/char-dham-yatra-complete-guide" className="text-accent hover:underline">complete Char Dham guide</Link>.
           </p>

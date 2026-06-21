@@ -25,11 +25,11 @@ const Cars = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Taxi & Car Rental in Haridwar | Innova, Dzire, Tempo Traveller — Smart Choice Tours</title>
-        <meta name="description" content="Hire taxi & car rental in Haridwar for Char Dham Yatra, Kedarnath, Mussoorie & airport transfers. Innova Crysta, Swift Dzire, Tempo Traveller. Starting ₹800. Call +91 8273490102." />
+        <title>Taxi & Car Rental in Haridwar | Fleet & Rates</title>
+        <meta name="description" content="Hire affordable taxi & car rentals in Haridwar. Choose from Innova Crysta, Swift Dzire, and Tempo Traveller for Char Dham & outstation tours." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/cars" />
-        <meta property="og:title" content="Taxi & Car Rental in Haridwar | Smart Choice Tour & Travels" />
-        <meta property="og:description" content="Book taxi in Haridwar — Innova Crysta, Swift Dzire, Tempo Traveller. Char Dham, Kedarnath, Mussoorie. Transparent pricing. Call +91 8273490102." />
+        <meta property="og:title" content="Taxi & Car Rental in Haridwar | Fleet & Rates" />
+        <meta property="og:description" content="Hire affordable taxi & car rentals in Haridwar. Choose from Innova Crysta, Swift Dzire, and Tempo Traveller for Char Dham & outstation tours." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/cars" />
       </Helmet>
 

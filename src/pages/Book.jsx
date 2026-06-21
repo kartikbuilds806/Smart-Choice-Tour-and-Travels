@@ -148,8 +148,8 @@ Vehicle: ${vehicle}${messageContent ? `\nMessage: ${messageContent}` : ''}`;
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Book Tour Package | Smart Choice Tour & Travels Haridwar</title>
-        <meta name="description" content="Plan and book your next trip with Smart Choice Tour & Travels—fill the booking form and contact us via WhatsApp." />
+        <title>Book Tour Package & Taxi | Smart Choice Tours</title>
+        <meta name="description" content="Plan and book your next trip in Uttarakhand. Fill our quick booking form for Char Dham, Kedarnath, and outstation taxi bookings." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/book" />
       </Helmet>
       
