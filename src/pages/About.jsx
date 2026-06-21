@@ -77,6 +77,7 @@ const About = () => {
               loading="lazy"
               width="800"
               height="600"
+              decoding="async"
             />
           </div>
         </div>

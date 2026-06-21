@@ -149,6 +149,7 @@ const Home = () => {
             fetchpriority={currentSlide === 0 ? 'high' : 'auto'}
             width="1920"
             height="1080"
+            decoding="async"
           />
         </AnimatePresence>
         <div className="absolute inset-0 bg-black/50 z-10" />
@@ -248,6 +249,7 @@ const Home = () => {
                     loading="lazy"
                     width="400"
                     height="300"
+                    decoding="async"
                   />
                   <div className="absolute top-3 right-3 bg-accent text-slate-900 text-xs font-bold px-2 py-1 rounded-full">
                     {pkg.duration}
@@ -309,6 +311,7 @@ const Home = () => {
                     loading="lazy"
                     width="600"
                     height="400"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-6 flex flex-col items-center flex-grow text-center">
@@ -365,6 +368,7 @@ const Home = () => {
                     loading="lazy"
                     width="600"
                     height="400"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col items-start justify-end p-6">
                     <h3 className="text-2xl font-bold text-white tracking-wide">{city}</h3>
@@ -403,6 +407,7 @@ const Home = () => {
                     loading="lazy"
                     width="600"
                     height="400"
+                    decoding="async"
                   />
                   <span className="absolute top-3 left-3 bg-accent text-slate-900 text-xs font-bold px-2 py-1 rounded-full">{car.tag}</span>
                 </div>

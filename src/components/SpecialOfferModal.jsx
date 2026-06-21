@@ -61,6 +61,9 @@ const SpecialOfferModal = ({ isModalOpen, setIsModalOpen }) => {
                 alt="Char Dham Yatra Special Package Offer — Smart Choice Tour & Travels"
                 className="w-full h-auto object-contain block"
                 loading="eager"
+                width="600"
+                height="900"
+                decoding="async"
               />
             </div>
 

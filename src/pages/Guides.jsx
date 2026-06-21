@@ -59,6 +59,7 @@ const Guides = () => {
                   loading="lazy"
                   width="600"
                   height="400"
+                  decoding="async"
                 />
                 <div className="absolute top-3 left-3 flex space-x-2">
                   {guide.category && (

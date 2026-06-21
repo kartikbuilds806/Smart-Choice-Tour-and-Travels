@@ -67,6 +67,7 @@ const Cars = () => {
                   loading="lazy"
                   width="600"
                   height="400"
+                  decoding="async"
                 />
                 <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 text-xs font-bold rounded-full text-slate-800 shadow-sm">
                   {car.type}

@@ -38,7 +38,7 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
 
       {/* Hero */}
       <div className="relative h-80 md:h-[420px] w-full">
-        <img src={pkg.heroImage} alt={`${pkg.name} — Smart Choice Tour & Travels Haridwar`} className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" width="1920" height="1080" />
+        <img src={pkg.heroImage} alt={`${pkg.name} — Smart Choice Tour & Travels Haridwar`} className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" width="1920" height="1080" decoding="async" />
         <div className="absolute inset-0 bg-black/60" />
         <div className="absolute inset-0 flex items-center justify-center container mx-auto px-4">
           <div className="text-center text-white max-w-4xl">

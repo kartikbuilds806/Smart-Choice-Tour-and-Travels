@@ -74,6 +74,7 @@ const GuideDetail = () => {
           fetchpriority="high"
           width="1920"
           height="1080"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-black/65 z-10" />
         <div className="absolute inset-0 z-20 flex items-center justify-center container mx-auto px-4">

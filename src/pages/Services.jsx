@@ -68,6 +68,7 @@ const Services = () => {
                   loading="lazy"
                   width="600"
                   height="400"
+                  decoding="async"
                 />
               </div>
               <div className="p-8 flex flex-col flex-grow text-center">

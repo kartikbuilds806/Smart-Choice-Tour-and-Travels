@@ -60,6 +60,7 @@ const Gallery = () => {
                 loading="lazy"
                 width="400"
                 height="400"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-300 flex items-center justify-center">
                 <span className="text-white opacity-0 group-hover:opacity-100 font-medium tracking-wider uppercase text-sm border border-white px-4 py-2 rounded">
@@ -98,6 +99,7 @@ const Gallery = () => {
               loading="lazy"
               width="1600"
               height="1200"
+              decoding="async"
               onClick={(e) => e.stopPropagation()}
             />
           </motion.div>

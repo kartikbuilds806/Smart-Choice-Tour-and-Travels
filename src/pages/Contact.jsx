@@ -8,6 +8,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us | Smart Choice Tour & Travels | +91 8273490102</title>
         <meta name="description" content="Get in touch with Smart Choice Tour & Travels in Haridwar for bookings, inquiries, and customer support." />
+        <link rel="canonical" href="https://www.thesmartchoicetours.com/contact" />
       </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
