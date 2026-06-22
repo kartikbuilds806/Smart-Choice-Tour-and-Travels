@@ -74,6 +74,11 @@ const SpecialOfferModal = ({ isModalOpen, setIsModalOpen }) => {
                 href="tel:+918273490102"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 px-4 font-black text-slate-900 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer text-xs md:text-sm uppercase tracking-wider"
                 style={{ background: 'linear-gradient(135deg, #fbbf24, #f59e0b, #e07b00)' }}
+                onClick={() => {
+                  if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra Special Package' });
+                  }
+                }}
               >
                 <FaPhoneAlt size={13} />
                 Call Now — +91 8273490102
@@ -85,6 +90,11 @@ const SpecialOfferModal = ({ isModalOpen, setIsModalOpen }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 px-4 font-black text-white bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer text-xs md:text-sm uppercase tracking-wider"
+                onClick={() => {
+                  if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra Special Package' });
+                  }
+                }}
               >
                 <FaWhatsapp size={17} />
                 WhatsApp Us

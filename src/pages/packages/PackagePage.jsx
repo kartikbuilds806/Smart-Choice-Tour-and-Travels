@@ -150,13 +150,39 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
                 <p className="text-slate-500 text-sm mb-1">Starting from</p>
                 <p className="text-3xl font-bold text-primary mb-1">{pkg.startingFrom}</p>
                 <p className="text-slate-500 text-xs mb-6">per person (group pricing)</p>
-                <a href={`https://wa.me/918273490102?text=Hello%20I%20want%20to%20book%20the%20${encodeURIComponent(pkg.name)}`} target="_blank" rel="noreferrer" className="block w-full text-center bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-bold text-lg mb-3 transition-colors">
+                <a
+                  href={`https://wa.me/918273490102?text=Hello%20I%20want%20to%20book%20the%20${encodeURIComponent(pkg.name)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block w-full text-center bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-bold text-lg mb-3 transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                    }
+                  }}
+                >
                   <FaWhatsapp className="inline mr-2" /> Book on WhatsApp
                 </a>
-                <a href="tel:+918273490102" className="block w-full text-center bg-primary hover:bg-primary-dark text-white py-3 rounded-xl font-semibold mb-4 transition-colors">
+                <a
+                  href="tel:+918273490102"
+                  className="block w-full text-center bg-primary hover:bg-primary-dark text-white py-3 rounded-xl font-semibold mb-4 transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                    }
+                  }}
+                >
                   <FaPhoneAlt className="inline mr-2" size={14} /> Call +91 8273490102
                 </a>
-                <Link to="/book" className="block w-full text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-xl font-semibold transition-colors">
+                <Link
+                  to="/book"
+                  className="block w-full text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-xl font-semibold transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                    }
+                  }}
+                >
                   Fill Booking Form
                 </Link>
                 <div className="mt-5 pt-5 border-t border-slate-200 space-y-2">

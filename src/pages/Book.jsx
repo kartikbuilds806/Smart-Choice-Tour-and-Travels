@@ -139,6 +139,13 @@ Vehicle: ${vehicle}${messageContent ? `\nMessage: ${messageContent}` : ''}`;
     // Redirect to WhatsApp
     window.open(whatsappUrl, '_blank');
 
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'enquiry_submit', {
+        event_category: 'Conversion',
+        event_label: 'Booking Form Submission'
+      });
+    }
+    
     // Re-enable form after redirection
     setTimeout(() => {
       setIsSubmitting(false);

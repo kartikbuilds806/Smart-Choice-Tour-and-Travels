@@ -198,6 +198,11 @@ const CharDham = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="block w-full text-center bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-bold text-lg mb-3 transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra' });
+                    }
+                  }}
                 >
                   <FaWhatsapp className="inline mr-2" />
                   Book on WhatsApp
@@ -205,6 +210,11 @@ const CharDham = () => {
                 <a
                   href="tel:+918273490102"
                   className="block w-full text-center bg-primary hover:bg-primary-dark text-white py-3 rounded-xl font-semibold mb-4 transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra' });
+                    }
+                  }}
                 >
                   <FaPhoneAlt className="inline mr-2" size={14} />
                   Call +91 8273490102
@@ -212,6 +222,11 @@ const CharDham = () => {
                 <Link
                   to="/book"
                   className="block w-full text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-xl font-semibold transition-colors"
+                  onClick={() => {
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra' });
+                    }
+                  }}
                 >
                   Fill Booking Form
                 </Link>
@@ -264,6 +279,11 @@ const CharDham = () => {
             target="_blank"
             rel="noreferrer"
             className="bg-accent text-slate-900 font-bold px-8 py-4 rounded-full hover:bg-yellow-500 transition-colors inline-block"
+            onClick={() => {
+              if (typeof window.gtag === 'function') {
+                window.gtag('event', 'package_enquiry', { package_name: 'Char Dham Yatra' });
+              }
+            }}
           >
             Get Free Char Dham Quote
           </a>

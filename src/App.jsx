@@ -40,6 +40,40 @@ function AppContent() {
 
   const showSpecialOffer = location.pathname === '/' || location.pathname === '/services';
 
+  useEffect(() => {
+    const handleGlobalClick = (e) => {
+      const anchor = e.target.closest('a');
+      if (!anchor) return;
+
+      const href = anchor.getAttribute('href') || '';
+
+      // 1. whatsapp_click
+      if (href.includes('wa.me')) {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'whatsapp_click', {
+            event_category: 'engagement',
+            event_label: href
+          });
+        }
+      }
+
+      // 2. phone_click
+      if (href.startsWith('tel:')) {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'phone_click', {
+            event_category: 'engagement',
+            event_label: href
+          });
+        }
+      }
+    };
+
+    document.addEventListener('click', handleGlobalClick);
+    return () => {
+      document.removeEventListener('click', handleGlobalClick);
+    };
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen">
       <ScrollToTop />
