@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 import SpecialOfferButton from './components/SpecialOfferButton';
 import SpecialOfferModal from './components/SpecialOfferModal';
+import BotpressWidget from './components/BotpressWidget';
 
 // Core Pages
 import Home from './pages/Home';
@@ -103,6 +104,7 @@ function AppContent() {
       </main>
       <Footer />
       <FloatingButtons />
+      <BotpressWidget />
 
       {showSpecialOffer && (
         <>
