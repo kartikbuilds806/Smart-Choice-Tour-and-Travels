@@ -26,6 +26,7 @@ import Nainital from './pages/packages/Nainital';
 import Rishikesh from './pages/packages/Rishikesh';
 import Badrinath from './pages/packages/Badrinath';
 import HaridwarSightseeing from './pages/packages/HaridwarSightseeing';
+import NotFound from './pages/NotFound';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -100,6 +101,9 @@ function AppContent() {
           <Route path="/packages/rishikesh" element={<Rishikesh />} />
           <Route path="/packages/badrinath" element={<Badrinath />} />
           <Route path="/packages/haridwar-sightseeing" element={<HaridwarSightseeing />} />
+
+          {/* Fallback 404 Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

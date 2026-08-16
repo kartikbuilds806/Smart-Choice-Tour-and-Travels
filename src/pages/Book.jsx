@@ -155,19 +155,26 @@ Vehicle: ${vehicle}${messageContent ? `\nMessage: ${messageContent}` : ''}`;
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Book Tour Package & Taxi | Smart Choice Tours</title>
-        <meta name="description" content="Plan and book your next trip in Uttarakhand. Fill our quick booking form for Char Dham, Kedarnath, and outstation taxi bookings." />
+        <title>Book Tour Package & Taxi in Haridwar | Smart Choice Tours</title>
+        <meta name="description" content="Book tour packages & outstation taxi from Haridwar online. Quick booking form for Char Dham, Kedarnath, Mussoorie & cab rental. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/book" />
+        <meta property="og:title" content="Book Tour Package & Taxi in Haridwar | Smart Choice Tours" />
+        <meta property="og:description" content="Book tour packages & outstation taxi from Haridwar online. Quick booking form for Char Dham, Kedarnath, Mussoorie & cab rental. Call +91 8273490102." />
+        <meta property="og:url" content="https://www.thesmartchoicetours.com/book" />
       </Helmet>
       
       <div className="bg-slate-900 text-white py-16 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/40 z-0"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-4">Book A Service</h1>
+          <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-4">Book Tour Package & Taxi in Haridwar</h1>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 mt-16 max-w-4xl">
+      <div className="container mx-auto px-4 mt-12 max-w-4xl">
+        <p className="text-slate-600 text-sm text-center mb-8">
+          Looking for vehicle fleet details or package itineraries before booking? Explore our <Link to="/cars" className="text-primary hover:underline font-medium">taxi & car rental fleet</Link> or view our <Link to="/packages/char-dham-yatra" className="text-primary hover:underline font-medium">Char Dham Yatra package details</Link>.
+        </p>
+
         <div className="glass p-8 md:p-12 rounded-3xl shadow-xl border-t-8 border-t-primary bg-white">
           <div className="text-center mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-800 font-poppins">Plan Your Journey</h2>

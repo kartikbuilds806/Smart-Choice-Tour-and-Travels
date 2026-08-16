@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { guidesData } from '../data/guidesData';
 import Breadcrumb from '../components/Breadcrumb';
+import NotFound from './NotFound';
 import { FaClock, FaTag } from 'react-icons/fa';
 
 const GuideDetail = () => {
@@ -11,35 +12,61 @@ const GuideDetail = () => {
   const guide = guidesData.find(g => g.id === id);
 
   if (!guide) {
-    return <Navigate to="/guides" />;
+    return <NotFound />;
   }
 
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: guide.title,
-    description: guide.excerpt,
-    image: `https://www.thesmartchoicetours.com${guide.image}`,
-    author: {
-      '@type': 'Organization',
-      name: 'Smart Choice Tour and Travels',
-      url: 'https://www.thesmartchoicetours.com',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Smart Choice Tour and Travels',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.thesmartchoicetours.com/favicon.png',
+  const schemaData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: guide.title,
+      description: guide.excerpt,
+      image: `https://www.thesmartchoicetours.com${guide.image}`,
+      author: {
+        '@type': 'Organization',
+        name: 'Smart Choice Tour and Travels',
+        url: 'https://www.thesmartchoicetours.com',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Smart Choice Tour and Travels',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.thesmartchoicetours.com/favicon.png',
+        },
+      },
+      datePublished: guide.datePublished || '2026-05-01',
+      dateModified: '2026-06-01',
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `https://www.thesmartchoicetours.com/guides/${guide.id}`,
       },
     },
-    datePublished: guide.datePublished || '2026-05-01',
-    dateModified: '2026-06-01',
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': `https://www.thesmartchoicetours.com/guides/${guide.id}`,
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://www.thesmartchoicetours.com',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Travel Guides',
+          item: 'https://www.thesmartchoicetours.com/guides',
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: guide.title,
+          item: `https://www.thesmartchoicetours.com/guides/${guide.id}`,
+        },
+      ],
     },
-  };
+  ];
 
   // Other guides excluding current
   const relatedGuides = guidesData.filter(g => g.id !== id).slice(0, 3);
@@ -47,15 +74,15 @@ const GuideDetail = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>{guide.title} | Smart Choice Tour & Travels</title>
+        <title>{guide.metaTitle || `${guide.title} | Smart Choice Tour & Travels`}</title>
         <meta name="description" content={guide.excerpt} />
         <link rel="canonical" href={`https://www.thesmartchoicetours.com/guides/${guide.id}`} />
-        <meta property="og:title" content={`${guide.title} | Smart Choice Tour & Travels`} />
+        <meta property="og:title" content={guide.metaTitle || `${guide.title} | Smart Choice Tour & Travels`} />
         <meta property="og:description" content={guide.excerpt} />
         <meta property="og:image" content={`https://www.thesmartchoicetours.com${guide.image}`} />
         <meta property="og:url" content={`https://www.thesmartchoicetours.com/guides/${guide.id}`} />
         <meta property="og:type" content="article" />
-        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
       <Breadcrumb items={[

@@ -9,30 +9,44 @@ import { getPackageById } from '../../data/packagesData';
 const CharDham = () => {
   const pkg = getPackageById('char-dham-yatra');
 
-  const schemaData = {
-    '@context': 'https://schema.org',
-    '@type': 'TouristTrip',
-    name: pkg.name,
-    description: pkg.metaDescription,
-    touristType: 'Pilgrims, Spiritual Travelers',
-    itinerary: pkg.itinerary.map(day => ({
-      '@type': 'TouristAttraction',
-      name: day.title,
-      description: day.description,
-    })),
-    provider: {
-      '@type': 'TravelAgency',
-      name: 'Smart Choice Tour and Travels',
-      telephone: '+91-8273490102',
-      url: 'https://www.thesmartchoicetours.com',
+  const schemaData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'TouristTrip',
+      name: pkg.name,
+      description: pkg.metaDescription,
+      touristType: 'Pilgrims, Spiritual Travelers',
+      itinerary: pkg.itinerary.map(day => ({
+        '@type': 'TouristAttraction',
+        name: day.title,
+        description: day.description,
+      })),
+      provider: {
+        '@type': 'TravelAgency',
+        name: 'Smart Choice Tour and Travels',
+        telephone: '+91-8273490102',
+        url: 'https://www.thesmartchoicetours.com',
+      },
+      offers: {
+        '@type': 'Offer',
+        price: '15000',
+        priceCurrency: 'INR',
+        availability: 'https://schema.org/InStock',
+      },
     },
-    offers: {
-      '@type': 'Offer',
-      price: '15000',
-      priceCurrency: 'INR',
-      availability: 'https://schema.org/InStock',
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: pkg.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
     },
-  };
+  ];
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">

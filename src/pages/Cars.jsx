@@ -25,12 +25,27 @@ const Cars = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Taxi & Car Rental in Haridwar | Fleet & Rates</title>
-        <meta name="description" content="Hire affordable taxi & car rentals in Haridwar. Choose from Innova Crysta, Swift Dzire, and Tempo Traveller for Char Dham & outstation tours." />
+        <title>Taxi Service & Car Rental in Haridwar | Smart Choice Tours</title>
+        <meta name="description" content="Book affordable taxi service & car rental in Haridwar. Innova Crysta, Dzire & Tempo Traveller for Char Dham, outstation & airport transfers. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/cars" />
-        <meta property="og:title" content="Taxi & Car Rental in Haridwar | Fleet & Rates" />
-        <meta property="og:description" content="Hire affordable taxi & car rentals in Haridwar. Choose from Innova Crysta, Swift Dzire, and Tempo Traveller for Char Dham & outstation tours." />
+        <meta property="og:title" content="Taxi Service & Car Rental in Haridwar | Smart Choice Tours" />
+        <meta property="og:description" content="Book affordable taxi service & car rental in Haridwar. Innova Crysta, Dzire & Tempo Traveller for Char Dham, outstation & airport transfers. Call +91 8273490102." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/cars" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'TaxiService',
+            'name': 'Smart Choice Taxi Service & Car Rental Haridwar',
+            'provider': {
+              '@type': 'TravelAgency',
+              'name': 'Smart Choice Tour and Travels',
+              'telephone': '+91-8273490102',
+              'url': 'https://www.thesmartchoicetours.com'
+            },
+            'areaServed': 'Haridwar, Uttarakhand, India',
+            'description': 'Outstation taxi service and car rental from Haridwar for Char Dham Yatra, Kedarnath, Mussoorie, Dehradun, and airport transfers.'
+          })}
+        </script>
       </Helmet>
 
       <Breadcrumb items={[{ label: 'Home', path: '/' }, { label: 'Taxi & Car Rental Haridwar' }]} />

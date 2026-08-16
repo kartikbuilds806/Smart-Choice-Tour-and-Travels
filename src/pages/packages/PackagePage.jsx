@@ -20,14 +20,40 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
         <meta property="og:description" content={pkg.metaDescription} />
         <meta property="og:image" content={`https://www.thesmartchoicetours.com${pkg.heroImage}`} />
         <meta property="og:url" content={`https://www.thesmartchoicetours.com${pkg.slug}`} />
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'TouristTrip',
-          name: pkg.name,
-          description: pkg.metaDescription,
-          provider: { '@type': 'TravelAgency', name: 'Smart Choice Tour and Travels', telephone: '+91-8273490102' },
-          offers: { '@type': 'Offer', price: pkg.startingFrom.replace(/[^0-9]/g, ''), priceCurrency: 'INR', availability: 'https://schema.org/InStock' },
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify([
+          {
+            '@context': 'https://schema.org',
+            '@type': 'TouristTrip',
+            name: pkg.name,
+            description: pkg.metaDescription,
+            touristType: ['Pilgrims', 'Families', 'Tourists'],
+            provider: {
+              '@type': 'TravelAgency',
+              name: 'Smart Choice Tour and Travels',
+              telephone: '+91-8273490102',
+              url: 'https://www.thesmartchoicetours.com'
+            },
+            offers: {
+              '@type': 'Offer',
+              price: pkg.startingFrom.replace(/[^0-9]/g, ''),
+              priceCurrency: 'INR',
+              availability: 'https://schema.org/InStock',
+              url: `https://www.thesmartchoicetours.com${pkg.slug}`
+            }
+          },
+          ...(pkg.faqs && pkg.faqs.length > 0 ? [{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: pkg.faqs.map(faq => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer
+              }
+            }))
+          }] : [])
+        ])}</script>
       </Helmet>
 
       <Breadcrumb items={[

@@ -25,11 +25,11 @@ const Services = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Tour Packages & Travel Services in Haridwar</title>
-        <meta name="description" content="Explore our tour packages & taxi services in Haridwar. Book customizable Char Dham Yatra, Kedarnath, Mussoorie, and Nainital tours." />
+        <title>Tour Packages & Travel Services in Haridwar | Smart Choice</title>
+        <meta name="description" content="Explore tour packages & travel services from Haridwar. Book Char Dham Yatra, Kedarnath, outstation taxi & local sightseeing. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/services" />
-        <meta property="og:title" content="Tour Packages & Travel Services in Haridwar" />
-        <meta property="og:description" content="Explore our tour packages & taxi services in Haridwar. Book customizable Char Dham Yatra, Kedarnath, Mussoorie, and Nainital tours." />
+        <meta property="og:title" content="Tour Packages & Travel Services in Haridwar | Smart Choice" />
+        <meta property="og:description" content="Explore tour packages & travel services from Haridwar. Book Char Dham Yatra, Kedarnath, outstation taxi & local sightseeing. Call +91 8273490102." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/services" />
       </Helmet>
 

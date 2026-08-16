@@ -1,14 +1,41 @@
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaClock } from 'react-icons/fa';
 
 const Contact = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Contact Us | Smart Choice Tour & Travels</title>
-        <meta name="description" content="Contact Smart Choice Tour & Travels in Haridwar. Get in touch for bookings, custom tour quotes, and outstation taxi inquiries. Call +91 8273490102." />
+        <title>Contact Smart Choice Tour & Travels | Haridwar Office</title>
+        <meta name="description" content="Contact Smart Choice Tour & Travels in Haridwar. Located opp. Railway Station, Bhimgoda. Call +91 8273490102 or WhatsApp for instant tour & taxi quotes." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/contact" />
+        <meta property="og:title" content="Contact Smart Choice Tour & Travels | Haridwar Office" />
+        <meta property="og:description" content="Contact Smart Choice Tour & Travels in Haridwar. Located opp. Railway Station, Bhimgoda. Call +91 8273490102 or WhatsApp for instant tour & taxi quotes." />
+        <meta property="og:url" content="https://www.thesmartchoicetours.com/contact" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ContactPage',
+            'name': 'Contact Smart Choice Tour and Travels',
+            'url': 'https://www.thesmartchoicetours.com/contact',
+            'mainEntity': {
+              '@type': 'TravelAgency',
+              'name': 'Smart Choice Tour and Travels',
+              'telephone': '+91-8273490102',
+              'email': 'smartchoicetoursandtravels@gmail.com',
+              'address': {
+                '@type': 'PostalAddress',
+                'streetAddress': 'Opp. Railway Station, Bhimgoda, Devpura',
+                'addressLocality': 'Haridwar',
+                'addressRegion': 'Uttarakhand',
+                'postalCode': '249401',
+                'addressCountry': 'IN'
+              },
+              'openingHours': 'Mo-Su 08:00-21:00'
+            }
+          })}
+        </script>
       </Helmet>
       
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
@@ -21,7 +48,7 @@ const Contact = () => {
 
       <div className="container mx-auto px-4 mt-16 max-w-6xl">
         <p className="text-slate-600 leading-relaxed text-center mb-12 max-w-4xl mx-auto">
-          Get in touch with Smart Choice Tour and Travels — Haridwar's most trusted travel agency. We are located opposite Haridwar Railway Station, Shikhu Pur, Devpura, Haridwar, Uttarakhand 249401. Call us at +91 8273490102 or WhatsApp for instant booking. We are available 7 days a week from 8 AM to 9 PM.
+          Get in touch with Smart Choice Tour and Travels — Haridwar's most trusted travel agency. We are located opposite Haridwar Railway Station, Shikhu Pur, Devpura, Haridwar, Uttarakhand 249401. <Link to="/about" className="text-primary hover:underline font-medium">Learn more about us</Link> or view our <Link to="/cars" className="text-primary hover:underline font-medium">taxi fleet and rates</Link>. Call us at +91 8273490102 or WhatsApp for instant booking. We are available 7 days a week from 8 AM to 9 PM.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           
@@ -37,7 +64,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-slate-800">Office Address</h3>
-                  <p className="text-slate-600 mt-1">Opp. Railway Station, Bhimgoda,<br/>Haridwar, Uttarakhand, India</p>
+                  <p className="text-slate-600 mt-1">Opp. Railway Station, Bhimgoda,<br/>Haridwar, Uttarakhand, India 249401</p>
                 </div>
               </div>
 
@@ -74,6 +101,16 @@ const Contact = () => {
                   <p className="text-slate-600 mt-1">
                     <a href="mailto:smartchoicetoursandtravels@gmail.com" className="hover:text-primary transition-colors">smartchoicetoursandtravels@gmail.com</a>
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="bg-blue-100 p-4 rounded-full text-primary flex-shrink-0">
+                  <FaClock size={24} />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg text-slate-800">Office Hours</h3>
+                  <p className="text-slate-600 mt-1">Monday – Sunday: 8:00 AM – 9:00 PM</p>
                 </div>
               </div>
             </div>

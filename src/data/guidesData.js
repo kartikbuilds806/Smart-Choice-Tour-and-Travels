@@ -5,6 +5,7 @@ export const guidesData = [
   {
     id: 'top-10-locations-haridwar',
     title: 'Top 10 Locations to Visit in Haridwar (2026 Travel Guide)',
+    metaTitle: 'Top 10 Places to Visit in Haridwar (2026 Guide) | Smart Choice',
     excerpt: 'Discover the most spiritual and scenic spots in Haridwar. Read our complete travel guide to the best locations, temples, and sights. Call +91 8273490102.',
     image: '/images/Home page/haridwar.jpg',
     category: 'Destination Guide',
@@ -64,6 +65,7 @@ To make the most of your visit, book a local sightseeing tour with **Smart Choic
   {
     id: 'uttarakhand-travel-planning',
     title: 'How to Plan Your Trip to Uttarakhand: A Complete Guide',
+    metaTitle: 'How to Plan a Trip to Uttarakhand (2026 Guide) | Smart Choice',
     excerpt: 'Planning a trip to Uttarakhand? From the Char Dham Yatra to the hill stations of Mussoorie, here is everything you need to know to plan a safe journey.',
     image: '/images/Home page/Mussorie.jpg',
     category: 'Travel Planning',
@@ -116,6 +118,7 @@ Navigating the mountainous terrain and coordinating itineraries can be stressful
   {
     id: 'char-dham-yatra-complete-guide',
     title: 'Complete Char Dham Yatra Guide 2026 — Itinerary, Cost, Best Time & Tips',
+    metaTitle: 'Char Dham Yatra Complete Guide 2026 | Itinerary & Tips',
     excerpt: 'Everything you need to know about the Char Dham Yatra from Haridwar — full itinerary, 2026 opening dates, cost breakdown, packing tips. Call +91 8273490102.',
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Pilgrimage Guide',
@@ -224,6 +227,7 @@ We have been operating Char Dham Yatra tours from our base in Haridwar for years
   {
     id: 'kedarnath-travel-guide-2026',
     title: 'Kedarnath Travel Guide 2026 — How to Reach, Best Time, Trek & Tips',
+    metaTitle: 'Kedarnath Travel Guide 2026 | Trek, Route & Helicopter Info',
     excerpt: 'Complete Kedarnath travel guide for 2026. Learn how to reach Kedarnath from Haridwar, trek details, best time to visit, helicopter options and what to pack.',
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Destination Guide',
@@ -302,12 +306,13 @@ Kedarnath Temple typically opens on Akshaya Tritiya (late April/early May). The 
 4. **Don't attempt if medically unfit** — altitude can affect health
 5. **No plastic** — Kedarnath is an eco-sensitive zone
 
-Planning your Kedarnath yatra? [Book our Kedarnath tour package](/packages/kedarnath) or call +91 8273490102 for expert guidance.
+For a detailed expense breakdown, check our [Kedarnath trip cost budget guide](/guides/kedarnath-trip-cost-budget-2026). Planning your Kedarnath yatra? [Book our Kedarnath tour package](/packages/kedarnath) or call +91 8273490102 for expert guidance.
     `
   },
   {
     id: 'mussoorie-travel-guide-2026',
     title: 'Mussoorie Travel Guide 2026 — Places to Visit, Best Time & Tips',
+    metaTitle: 'Mussoorie Travel Guide 2026 | Places to Visit & Itinerary',
     excerpt: 'Complete Mussoorie travel guide. Discover Kempty Falls, Gun Hill, Mall Road, and the best hotels. Plan your Mussoorie trip from Haridwar or Dehradun.',
     image: '/images/Popular Destination/Mussorie.jpg',
     category: 'Destination Guide',
@@ -391,6 +396,7 @@ A well-maintained botanical garden with a musical fountain, perfect for families
   {
     id: 'rishikesh-adventure-spiritual-guide',
     title: 'Rishikesh Travel Guide 2026 — Adventure, Yoga & Spiritual Experiences',
+    metaTitle: 'Rishikesh Travel Guide 2026 | Rafting, Yoga & Sightseeing',
     excerpt: 'Complete Rishikesh travel guide covering river rafting, bungee jumping, yoga ashrams, Ganga Aarti timings, and the best places to visit. Call +91 8273490102.',
     image: '/images/Popular Destination/Rishikesh.jpg',
     category: 'Destination Guide',
@@ -465,6 +471,7 @@ The Rishikesh Ganga Aarti is smaller and more intimate than Haridwar's — highl
   {
     id: 'kedarnath-trip-cost-budget-2026',
     title: 'Kedarnath Trip Cost 2026 — Complete Budget Breakdown from Haridwar',
+    metaTitle: 'Kedarnath Trip Cost 2026 | Complete Budget from Haridwar',
     excerpt: 'Exact cost breakdown for a Kedarnath trip from Haridwar in 2026. Get taxi fares, helicopter costs, hotel rates, and total budget. Call +91 8273490102.',
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Budget Guide',
@@ -552,12 +559,13 @@ Helicopter is the most convenient option for elderly, children, or those short o
 | 4 persons | ₹10,000-13,000 | ₹16,000 | ₹25,000+ |
 | 6 persons | ₹8,000-11,000 | ₹13,000 | ₹22,000+ |
 
-[Book your Kedarnath package with us](/packages/kedarnath) — we offer the most transparent pricing in Haridwar.
+For complete route information and trek tips, read our [Kedarnath travel guide](/guides/kedarnath-travel-guide-2026). Ready to travel? [Book your Kedarnath package with us](/packages/kedarnath) — we offer the most transparent pricing in Haridwar.
     `
   },
   {
     id: 'char-dham-yatra-budget-guide-2026',
     title: 'Char Dham Yatra Cost 2026 — Complete Budget Guide from Haridwar',
+    metaTitle: 'Char Dham Yatra Cost 2026 | Full Budget from Haridwar',
     excerpt: 'Detailed Char Dham Yatra cost breakdown for 2026. Taxi rates, hotel costs, helicopter charges, and total per-person budget for a 12-day trip from Haridwar.',
     image: '/images/Home page/haridwar.jpg',
     category: 'Budget Guide',
@@ -634,6 +642,7 @@ For elderly or those unable to trek, helicopter is the best option:
   {
     id: 'family-tour-tips-uttarakhand',
     title: 'Family Tour Tips for Uttarakhand — Complete Guide for Safe & Fun Travel',
+    metaTitle: 'Uttarakhand Family Tour Tips 2026 | Safe Travel Guide',
     excerpt: 'Planning a family trip to Uttarakhand? Essential tips for traveling with elderly parents and kids, safety advice, and best family-friendly destinations.',
     image: '/images/Home page/Nainital.jpg',
     category: 'Travel Tips',
@@ -737,6 +746,7 @@ Choosing the right vehicle is critical for mountain travel:
   {
     id: 'honeymoon-packages-uttarakhand-2026',
     title: 'Best Honeymoon Packages in Uttarakhand 2026 — Romantic Hill Destinations',
+    metaTitle: 'Best Honeymoon Destinations in Uttarakhand 2026 | Packages',
     excerpt: 'Top honeymoon destinations in Uttarakhand including Mussoorie, Auli, and Rishikesh. Complete guide with package prices and romantic itinerary suggestions.',
     image: '/images/Home page/Mussorie.jpg',
     category: 'Honeymoon Guide',

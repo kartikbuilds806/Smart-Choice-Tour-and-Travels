@@ -11,10 +11,10 @@ const Guides = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Uttarakhand Travel Guides | Smart Choice Tours</title>
+        <title>Uttarakhand Travel Guides 2026 | Smart Choice Tours</title>
         <meta name="description" content="Read expert travel guides on Haridwar, Kedarnath, Char Dham Yatra, and Mussoorie. Get travel tips, itinerary planning, and cost guides." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/guides" />
-        <meta property="og:title" content="Uttarakhand Travel Guides | Smart Choice Tours" />
+        <meta property="og:title" content="Uttarakhand Travel Guides 2026 | Smart Choice Tours" />
         <meta property="og:description" content="Read expert travel guides on Haridwar, Kedarnath, Char Dham Yatra, and Mussoorie. Get travel tips, itinerary planning, and cost guides." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/guides" />
       </Helmet>
