@@ -67,6 +67,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Do Dham Yatra -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/packages/do-dham-yatra</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
   <!-- Kedarnath -->
   <url>
     <loc>https://www.thesmartchoicetours.com/packages/kedarnath</loc>

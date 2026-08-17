@@ -58,6 +58,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {[
               { label: 'Char Dham Yatra Package', path: '/packages/char-dham-yatra' },
+              { label: 'Do Dham Yatra Package', path: '/packages/do-dham-yatra' },
               { label: 'Kedarnath Tour Package', path: '/packages/kedarnath' },
               { label: 'Badrinath Package', path: '/packages/badrinath' },
               { label: 'Mussoorie Tour Package', path: '/packages/mussoorie' },
@@ -99,6 +100,50 @@ const Footer = () => {
           <div className="mt-6 p-3 bg-slate-800 rounded-lg">
             <p className="text-xs text-slate-400">⏰ Open 7 days · 8 AM – 9 PM</p>
             <p className="text-xs text-accent font-medium mt-1">⭐ 4.9★ Rating on Google</p>
+          </div>
+        </div>
+      </div>
+
+      {/* SEO Popular Searches & Keyword Tag Cloud */}
+      <div className="border-t border-slate-800/80 bg-slate-950/60 py-8">
+        <div className="container mx-auto px-4 md:px-8">
+          <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Popular Searches & Destinations</h4>
+          <div className="flex flex-wrap gap-2 text-[11px] text-slate-500">
+            {[
+              { tag: 'Travel agency Haridwar', path: '/about' },
+              { tag: 'Char Dham Yatra package Haridwar', path: '/packages/char-dham-yatra' },
+              { tag: 'Do Dham Yatra package', path: '/packages/do-dham-yatra' },
+              { tag: 'Kedarnath tour package', path: '/packages/kedarnath' },
+              { tag: 'Mussoorie package from Haridwar', path: '/packages/mussoorie' },
+              { tag: 'Taxi service Haridwar', path: '/cars' },
+              { tag: 'Dehradun airport taxi', path: '/cars' },
+              { tag: 'Jolly Grant airport transfer', path: '/cars' },
+              { tag: 'Tempo Traveller hire Haridwar', path: '/cars' },
+              { tag: 'Innova Crysta booking Haridwar', path: '/cars' },
+              { tag: 'Haridwar taxi fare rate chart 2026', path: '/cars' },
+              { tag: 'Badrinath tour package', path: '/packages/badrinath' },
+              { tag: 'Nainital tour package', path: '/packages/nainital' },
+              { tag: 'Rishikesh rafting cab', path: '/packages/rishikesh' },
+              { tag: 'Haridwar local sightseeing', path: '/packages/haridwar-sightseeing' },
+              { tag: 'Uttarakhand tour packages', path: '/services' },
+              { tag: 'Kedarnath trip cost', path: '/guides/kedarnath-trip-cost-budget-2026' },
+              { tag: 'Char Dham Yatra cost', path: '/guides/char-dham-yatra-budget-guide-2026' },
+              { tag: 'Uttarakhand travel guide', path: '/guides' },
+              { tag: 'Family tour Uttarakhand', path: '/guides/family-tour-tips-uttarakhand' },
+              { tag: 'Honeymoon packages Uttarakhand', path: '/guides/honeymoon-packages-uttarakhand-2026' },
+              { tag: 'Outstation cab Haridwar to Delhi', path: '/cars' },
+              { tag: 'Gaurikund taxi from Haridwar', path: '/cars' },
+              { tag: 'Car rental Haridwar', path: '/cars' },
+              { tag: 'Pilgrimage tours Haridwar', path: '/services' },
+              { tag: 'Chardham Yatra 2026 registration', path: '/guides/char-dham-yatra-complete-guide' },
+            ].map((item, i) => (
+              <span key={i} className="inline-flex items-center">
+                <Link to={item.path} className="hover:text-accent transition-colors">
+                  {item.tag}
+                </Link>
+                {i < 25 && <span className="ml-2 text-slate-700">·</span>}
+              </span>
+            ))}
           </div>
         </div>
       </div>

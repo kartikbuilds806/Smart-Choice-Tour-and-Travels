@@ -265,6 +265,7 @@ const CharDham = () => {
               <div className="bg-slate-50 rounded-2xl border border-slate-200 p-6">
                 <h3 className="font-bold text-slate-800 mb-4">Related Packages</h3>
                 <ul className="space-y-3">
+                  <li><Link to="/packages/do-dham-yatra" className="text-primary hover:underline text-sm font-semibold">→ Do Dham Yatra Package (6 Days)</Link></li>
                   <li><Link to="/packages/kedarnath" className="text-primary hover:underline text-sm">→ Kedarnath Tour Package</Link></li>
                   <li><Link to="/packages/badrinath" className="text-primary hover:underline text-sm">→ Badrinath Tour Package</Link></li>
                   <li><Link to="/packages/haridwar-sightseeing" className="text-primary hover:underline text-sm">→ Haridwar Sightseeing</Link></li>

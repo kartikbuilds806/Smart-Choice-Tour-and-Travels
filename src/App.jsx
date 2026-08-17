@@ -20,6 +20,7 @@ import GuideDetail from './pages/GuideDetail';
 
 // Tour Package Pages
 import CharDham from './pages/packages/CharDham';
+import DoDham from './pages/packages/DoDham';
 import Kedarnath from './pages/packages/Kedarnath';
 import Mussoorie from './pages/packages/Mussoorie';
 import Nainital from './pages/packages/Nainital';
@@ -95,6 +96,7 @@ function AppContent() {
 
           {/* Tour Package Routes */}
           <Route path="/packages/char-dham-yatra" element={<CharDham />} />
+          <Route path="/packages/do-dham-yatra" element={<DoDham />} />
           <Route path="/packages/kedarnath" element={<Kedarnath />} />
           <Route path="/packages/mussoorie" element={<Mussoorie />} />
           <Route path="/packages/nainital" element={<Nainital />} />

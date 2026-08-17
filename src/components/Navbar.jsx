@@ -5,6 +5,7 @@ import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
 
 const packageSubLinks = [
   { name: 'Char Dham Yatra', path: '/packages/char-dham-yatra' },
+  { name: 'Do Dham Yatra', path: '/packages/do-dham-yatra' },
   { name: 'Kedarnath Tour', path: '/packages/kedarnath' },
   { name: 'Badrinath Tour', path: '/packages/badrinath' },
   { name: 'Mussoorie Package', path: '/packages/mussoorie' },
