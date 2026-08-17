@@ -74,7 +74,7 @@ const CharDham = () => {
           alt="Kedarnath Temple — Char Dham Yatra Package from Haridwar"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
-          fetchpriority="high"
+          fetchPriority="high"
           width="1920"
           height="1080"
           decoding="async"

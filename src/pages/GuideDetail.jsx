@@ -98,7 +98,7 @@ const GuideDetail = () => {
           alt={guide.title}
           className="absolute inset-0 w-full h-full object-cover z-0"
           loading="eager"
-          fetchpriority="high"
+          fetchPriority="high"
           width="1920"
           height="1080"
           decoding="async"

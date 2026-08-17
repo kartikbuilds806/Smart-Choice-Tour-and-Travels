@@ -146,7 +146,7 @@ const Home = () => {
             className="absolute inset-0 w-full h-full object-cover z-0"
             alt={currentSlide === 0 ? 'Ganga Aarti at Har Ki Pauri, Haridwar' : currentSlide === 1 ? 'Mussoorie hill station view, Uttarakhand' : currentSlide === 2 ? 'Nainital lake view, Uttarakhand' : 'Kedarnath Temple, Uttarakhand'}
             loading={currentSlide === 0 ? 'eager' : 'lazy'}
-            fetchpriority={currentSlide === 0 ? 'high' : 'auto'}
+            fetchPriority={currentSlide === 0 ? 'high' : 'auto'}
             width="1920"
             height="1080"
             decoding="async"
