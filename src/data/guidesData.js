@@ -1047,4 +1047,350 @@ We guide all our guest pilgrims through the online registration process prior to
 Book a private AC cab with an experienced mountain driver from Smart Choice Tour & Travels. Explore our [Char Dham Yatra Package](/packages/char-dham-yatra), [Do Dham Yatra Package](/packages/do-dham-yatra), or [book online](/book) today. Contact our Haridwar desk at **+91 8273490102** or chat on **WhatsApp** for instant assistance.
     `
   },
+
+  {
+    id: 'haridwar-to-kedarnath-taxi-fare-2026',
+    title: 'Haridwar to Kedarnath Taxi Fare Rate Chart 2026',
+    metaTitle: 'Haridwar to Kedarnath Taxi Fare Rate Chart 2026 | Smart Choice',
+    excerpt: 'Check Haridwar to Kedarnath taxi fare 2026 for Dzire (₹9,000+), Innova Crysta & Tempo Traveller. Haridwar to Gaurikund cab rates & booking. Call +91 8273490102.',
+    image: '/images/Popular Destination/Kedarnath-Temple.webp',
+    category: 'Taxi & Transport',
+    readTime: '9 min read',
+    datePublished: '2026-06-01',
+    content: `
+# Haridwar to Kedarnath Taxi Fare Rate Chart 2026
+
+Planning a spiritual journey to the sacred shrine of Kedarnath Dham from Haridwar? Hiring a reliable private taxi with an experienced mountain driver is the most comfortable and safe way to travel. The road journey from Haridwar to Gaurikund (the last motorable point for Kedarnath) covers approximately **240 kilometers** of winding Himalayan roads along the Mandakini and Alaknanda rivers, taking around **8 to 10 hours** depending on traffic and weather conditions.
+
+At **Smart Choice Tour and Travels**, located right opposite Haridwar Railway Station in Bhimgoda, Haridwar, we offer transparent commercial taxi rentals with experienced hill drivers who know every turn of the Garhwal Himalayas.
+
+Below is our comprehensive **Haridwar to Kedarnath Taxi Fare Rate Chart for 2026**, covering all popular vehicle options, inclusions, route details, and booking guidance.
+
+---
+
+## Haridwar to Kedarnath Taxi Fare at a Glance (2026)
+
+The table below outlines our verified commercial taxi rates from Haridwar to Gaurikund / Sonprayag (Kedarnath base). Rates include all fuel costs, toll taxes, parking fees, and driver allowances.
+
+| Vehicle Type | Capacity | Vehicle Class | Haridwar to Gaurikund (Round-Trip Cab Fare) | Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Swift Dzire / Etios** | 4 Passengers + Driver | AC Sedan | **₹9,000 – ₹11,000** | Couples & Small Families (Up to 4 Pax) |
+| **Maruti Ertiga** | 6 Passengers + Driver | AC MPV | **₹13,000 – ₹15,000** | Families & Medium Groups (4-6 Pax) |
+| **Innova Crysta** | 6-7 Passengers + Driver | Premium AC SUV | **₹16,000 – ₹20,000** | Premium Family Comfort on Mountain Roads |
+| **12-Seater Tempo Traveller** | 12 Passengers + Driver | AC Minibus | **₹25,000 – ₹28,000** | Medium Pilgrimage Groups (8-12 Pax) |
+| **16-Seater Tempo Traveller** | 16 Passengers + Driver | AC Minibus | **₹28,000 – ₹32,000** | Large Family & Yatra Groups (12-16 Pax) |
+
+*Note: Taxi fares cover round-trip commercial transport from Haridwar to Gaurikund/Sonprayag and return. Per-person rates in a shared cab or full 4-day tour package may vary based on accommodation and inclusions.*
+
+---
+
+## Haridwar to Kedarnath Taxi Options Explained
+
+### 1. Swift Dzire / Etios (Sedan)
+The Swift Dzire is an economical and comfortable choice for up to 4 passengers traveling with light luggage. It is ideal for small families or couples looking for a budget-friendly private trip to Sonprayag/Gaurikund.
+* **Seating:** 4 Passengers + 1 Driver
+* **Fare Range:** ₹9,000 – ₹11,000 (Round-Trip Taxi Transfer)
+
+### 2. Toyota Innova Crysta / Ertiga (SUV & MPV)
+For navigating mountain curves and high-altitude climbs with superior suspension and legroom, the Innova Crysta is the gold standard. It easily accommodates 6 passengers with luggage and handles steep hill inclines smoothly.
+* **Seating:** 6 to 7 Passengers + 1 Driver
+* **Fare Range:** ₹16,000 – ₹20,000 for Innova Crysta; ₹13,000 – ₹15,000 for Ertiga
+
+### 3. Tempo Traveller (12 / 16 / 26 Seater)
+Traveling with a large family or pilgrimage group? Our AC Tempo Travellers feature pushback seats, ample luggage space, audio systems, and wide windows for sightseeing along the Ganga and Mandakini valleys.
+* **Seating:** 12, 16, or 26 Passengers
+* **Fare Range:** ₹25,000 – ₹32,000 for 4-day round-trip coverage
+
+---
+
+## Haridwar to Gaurikund / Sonprayag Taxi Route & Distance
+
+The commercial taxi route from Haridwar to Kedarnath base follows National Highway NH-107 through scenic river confluence towns (Panch Prayags):
+
+1. **Haridwar to Rishikesh** (24 km | 45 mins)
+2. **Rishikesh to Devprayag** (74 km | 2.5 hrs) — *Witness the confluence of Bhagirathi and Alaknanda rivers forming the holy Ganga.*
+3. **Devprayag to Srinagar Garhwal** (37 km | 1 hr)
+4. **Srinagar to Rudraprayag** (33 km | 1 hr) — *Confluence of Alaknanda and Mandakini rivers.*
+5. **Rudraprayag to Guptkashi / Phata** (45 km | 2 hrs)
+6. **Guptkashi to Sonprayag / Gaurikund** (30 km | 1.5 hrs) — *Final vehicle drop point for the 19 km trek to Kedarnath Temple.*
+
+---
+
+## What Is Included in the Taxi Fare?
+
+When you book a private cab with Smart Choice Tour and Travels, our transparent rates cover:
+- Commercial vehicle fuel expenses (Diesel / Petrol)
+- Experienced mountain driver allowance & daily charges
+- All state toll taxes, state border entry taxes, and parking fees
+- Pick-up and drop-off at Haridwar Railway Station, hotel, or residence
+
+## What Is Not Included?
+
+To ensure complete clarity before your journey:
+- Hotel stays & night accommodation charges
+- Food, beverages, and personal snacks
+- Mandatory Kedarnath trek expenses (pony/mule, doli, porter fees)
+- Helicopter ticket charges (helipads at Phata, Sirsi, Guptkashi)
+- Temple VIP entry fees or personal puja expenses
+
+---
+
+## Private Taxi Booking vs Kedarnath Tour Package
+
+* **Private Taxi Hire ([View Fleet](/cars)):** You hire the vehicle and driver for point-to-point transfer from Haridwar to Sonprayag/Gaurikund and back. You retain complete freedom to book your choice of hotels and food along the way.
+* **All-Inclusive Tour Package ([View Kedarnath Package](/packages/kedarnath)):** If you prefer a completely managed trip including hotel accommodation, meals, driver, and priority Yatra registration guidance, our 4-Day [Kedarnath Tour Package](/packages/kedarnath) starts from ₹5,500+ per person.
+
+---
+
+## Frequently Asked Questions (FAQs)
+
+### How much is the taxi fare from Haridwar to Kedarnath for Dzire?
+The round-trip taxi fare for a Swift Dzire from Haridwar to Sonprayag/Gaurikund ranges between ₹9,000 and ₹11,000, covering fuel, driver allowance, and toll taxes.
+
+### Can taxis drive directly to Kedarnath Temple?
+No. Vehicles can only travel up to Sonprayag / Gaurikund. From Gaurikund, pilgrims must complete the 19 km mountain trek on foot, by pony/mule, by doli, or by taking a helicopter from nearby helipads in Phata, Sirsi, or Guptkashi.
+
+### Is taxi fare charged per person or per vehicle?
+Private taxi rental is charged per vehicle. If you hire a Dzire for ₹9,000, the cost is shared among the 4 passengers in your group (approx ₹2,250 per person).
+
+### How early should I book a taxi for Kedarnath Yatra?
+During peak Yatra season (May to June and September to October), commercial mountain taxis are in heavy demand. We strongly advise reserving your cab at least **2 to 3 weeks in advance**.
+
+---
+
+## Related Travel & Pilgrimage Guides
+
+- [Kedarnath Travel & Trek Guide 2026](/guides/kedarnath-travel-guide-2026)
+- [Kedarnath Trip Cost & Budget Breakdown](/guides/kedarnath-trip-cost-budget-2026)
+- [Kedarnath Helicopter Booking Guide 2026](/guides/kedarnath-helicopter-booking-guide-2026)
+- [Char Dham Yatra Complete Guide 2026](/guides/char-dham-yatra-complete-guide)
+
+---
+
+**Ready to book your taxi to Kedarnath?**  
+Call **Smart Choice Tour and Travels** at **+91 8273490102** or message us on **WhatsApp** for an instant quote. Visit our office opposite Haridwar Railway Station at Bhimgoda, Haridwar. You can also submit an [online cab booking form](/book) today!
+`
+  },
+  {
+    id: 'best-time-to-visit-char-dham-yatra-2026',
+    title: 'Best Time to Visit Char Dham Yatra 2026 — Month-by-Month Guide',
+    metaTitle: 'Best Time to Visit Char Dham Yatra 2026 | Month-by-Month Guide',
+    excerpt: 'Discover the best time to visit Char Dham Yatra 2026. Month-by-month weather guide for Yamunotri, Gangotri, Kedarnath & Badrinath. Call +91 8273490102.',
+    image: '/images/Home page/Kedarnath-Temple.webp',
+    category: 'Pilgrimage Guide',
+    readTime: '10 min read',
+    datePublished: '2026-06-01',
+    content: `
+# Best Time to Visit Char Dham Yatra 2026 — Month-by-Month Guide
+
+The sacred **Char Dham Yatra** of Uttarakhand—encompassing the four revered shrines of **Yamunotri, Gangotri, Kedarnath, and Badrinath**—is one of the most spiritually significant pilgrimages in Hinduism. Situated high in the Garhwal Himalayas at altitudes ranging from 3,100 meters to over 3,500 meters, the shrines remain open to pilgrims for roughly six months each year, from late April / May through November.
+
+Choosing the right time for your pilgrimage is essential for a safe, comfortable, and spiritually fulfilling journey. Weather conditions in high mountain passes fluctuate rapidly, impacting road travel, trek safety, and helicopter operations.
+
+Below is our expert, month-by-month guide on the **best time to visit Char Dham Yatra in 2026**, prepared by the local travel team at **Smart Choice Tour and Travels**, Haridwar.
+
+---
+
+## Best Time for Char Dham Yatra in 2026: Quick Answer
+
+* **Peak & Ideal Season:** **May to June** (Summer) & **September to October** (Autumn).
+* **Monsoon Season (Avoid Heavy Travel):** **July to August** due to heavy rain, cloudbursts, and risk of landslides on mountain roads.
+* **Closing Season:** Late **October to mid-November** (Yamunotri, Kedarnath, and Badrinath close shortly after Diwali/Bhai Dooj).
+
+---
+
+## Char Dham Yatra Month-by-Month Travel Conditions
+
+The table below breaks down typical travel conditions, temperature ranges, advantages, and key considerations for each month of the Char Dham Yatra season.
+
+| Month | Typical Travel Conditions | Advantages | Key Considerations |
+| :--- | :--- | :--- | :--- |
+| **May** | Clear skies, cool daytime temperatures (10°C to 20°C), cold nights. | Shrine opening ceremonies; pleasant weather for trekking. | Heavy pilgrim rush; advance vehicle & hotel booking required. |
+| **June** | Warm days (15°C to 25°C); light pre-monsoon showers towards late June. | Excellent road connectivity; ideal for senior citizens & families. | Peak summer crowd; higher accommodation demand across route. |
+| **July** | Heavy monsoon rainfall; high humidity in valleys; muddy trek paths. | Lush green landscape; lower hotel rates & fewer crowds. | High risk of landslides; potential road blockages; flight/heli delays. |
+| **August** | Continuous monsoon rains; heavy cloud cover in high passes. | Budget-friendly travel options; peaceful temple visits. | Travel advisories common; weather disruption risks; check road updates. |
+| **September** | Post-monsoon clear skies; fresh mountain air; pleasant days (10°C to 18°C). | Scenic green vistas; comfortable trekking conditions; moderate crowds. | Nights begin getting cold; carry warm thermal clothing layers. |
+| **October** | Crisp autumn sunshine; cold temperatures (5°C to 15°C); starry nights. | Beautiful views; smooth road travel; easy temple darshan. | Freezing early morning/night temperatures; heavy woolens required. |
+| **November** | Sub-zero night temperatures (-5°C to 5°C); high altitude frost/snow. | Closing ceremony celebrations at Kedarnath & Badrinath. | Shrines close around Diwali; limited hotel options near shrines. |
+
+*Note: Mountain weather is inherently unpredictable. Always check official Uttarakhand State Disaster Management (USDMA) weather updates before embarking on your trip.*
+
+---
+
+## Best Months for Different Types of Travelers
+
+### 1. For Senior Citizens & Families (May – June & September)
+If traveling with elderly parents or young children, **May, June, and September** offer the safest road conditions and mildest daytime temperatures. Roads are clear, medical assistance posts are active along the routes, and trekking paths to Yamunotri and Kedarnath are dry.
+
+### 2. For Budget Travelers & Peaceful Pilgrimage (September – Early October)
+If you wish to avoid long darshan queues and peak hotel surcharges, **September to early October** is the golden window. Post-monsoon waterfalls are cascading, the air is crystal clear, and hotel availability in Guptkashi, Uttarkashi, and Badrinath is significantly better.
+
+### 3. For Adventure Seekers & Photography Enthusiasts (October)
+October provides breathtaking views of snow-capped Himalayan peaks against deep blue skies. The crisp mountain atmosphere is perfect for photography, trekking, and exploring high-altitude villages like Mana (the last Indian village near Badrinath).
+
+---
+
+## Essential Packing List for Char Dham Yatra
+
+Regardless of which month you travel, high-altitude weather requires proper preparation:
+* **Clothing:** 3-layer clothing (thermal innerwear, fleece jacket, windproof/waterproof outer jacket).
+* **Footwear:** Sturdy grip trekking shoes with warm woolen socks.
+* **Rain Gear:** Lightweight raincoat, poncho, or sturdy umbrella (essential even in May/June).
+* **Personal Care:** Sunscreen lotion (SPF 30+), lip balm, moisturizer, dark sunglasses.
+* **Health & Medical:** Personal prescriptions, altitude sickness tablets (Diamox upon doctor consultation), pain relief spray, ORS packets, and basic first-aid kit.
+* **Documents:** Printed copy of mandatory Uttarakhand Yatra Registration E-Pass and original Aadhaar / Govt ID card.
+
+---
+
+## Char Dham Yatra Route & Registration Planning
+
+* **Mandatory Registration:** Online registration on the official Uttarakhand Tourist Care portal is mandatory for all pilgrims before starting from Haridwar. Read our step-by-step [Char Dham Yatra Registration Guide 2026](/guides/char-dham-yatra-registration-guide-2026).
+* **Package Itinerary:** A standard 4-Dham tour takes 11 Nights / 12 Days starting from Haridwar. Explore our complete [Char Dham Yatra Package](/packages/char-dham-yatra) and [Do Dham Yatra Package](/packages/do-dham-yatra).
+
+---
+
+## Frequently Asked Questions (FAQs)
+
+### What is the single best month for Char Dham Yatra?
+May and September are widely considered the two best months for Char Dham Yatra due to pleasant daytime temperatures, clear road conditions, and minimal rainfall risk.
+
+### Can we visit Char Dham Yatra in July or August?
+While shrines remain open during July and August, monsoon rain causes frequent landslides and road delays in Garhwal hills. If traveling in monsoon, keep 2-3 buffer days in your itinerary and monitor daily weather reports.
+
+### When do the Char Dham temples close in 2026?
+The shrines traditionally close shortly after Diwali (October/November). Kedarnath and Yamunotri close on Bhai Dooj, Gangotri closes on Goverdhan Puja, and Badrinath closes a few days later in mid-November.
+
+---
+
+## Related Travel & Pilgrimage Guides
+
+- [Char Dham Yatra Complete Guide 2026](/guides/char-dham-yatra-complete-guide)
+- [Char Dham Yatra Budget & Cost Guide 2026](/guides/char-dham-yatra-budget-guide-2026)
+- [Kedarnath Travel & Trek Guide 2026](/guides/kedarnath-travel-guide-2026)
+- [Uttarakhand Travel Planning Guide](/guides/uttarakhand-travel-planning)
+
+---
+
+**Planning your 2026 Char Dham Yatra from Haridwar?**  
+Book your private AC cab or customized tour package with **Smart Choice Tour and Travels**. Call **+91 8273490102** or chat on **WhatsApp** for customized itineraries, hotel assistance, and transparent vehicle quotes. You can also [book online](/book) today!
+`
+  },
+  {
+    id: 'chopta-tungnath-trek-taxi-package-from-haridwar',
+    title: 'Chopta Tungnath Trek & Taxi Package from Haridwar',
+    metaTitle: 'Chopta Tungnath Trek & Taxi Package from Haridwar | Smart Choice',
+    excerpt: 'Plan your Chopta Tungnath trek from Haridwar with private taxi hire, route details & travel tips. Highest Shiva temple guide & cab rates. Call +91 8273490102.',
+    image: '/images/Popular Destination/haridwar.webp',
+    category: 'Adventure & Trekking',
+    readTime: '9 min read',
+    datePublished: '2026-06-01',
+    content: `
+# Chopta Tungnath Trek & Taxi Package from Haridwar
+
+Nestled in the pristine Garhwal Himalayas of Uttarakhand, **Chopta**—often affectionately called the *"Mini Switzerland of Uttarakhand"*—is a picturesque hamlet surrounded by dense alpine meadows (bugyals) and pine forests. Chopta serves as the base camp for the famous trek to **Tungnath Temple**, the highest Shiva temple in the world situated at an altitude of **3,680 meters (12,073 feet)**, and further up to the majestic summit of **Chandrashila Peak (4,000 meters / 13,123 feet)**.
+
+Whether you are looking to hire a private taxi from Haridwar for a weekend trek or seeking customized transport and hotel arrangements, **Smart Choice Tour and Travels** provides reliable vehicle rentals and travel assistance from Haridwar Railway Station and Jolly Grant Airport.
+
+Below is our comprehensive travel guide for planning your **Chopta Tungnath trek and taxi journey from Haridwar**.
+
+---
+
+## Chopta Tungnath Trek Overview
+
+* **Starting Base:** Chopta Village, Rudraprayag District, Uttarakhand
+* **Distance from Haridwar:** ~225 km (7 to 8 hours drive via Rishikesh & Devprayag)
+* **Trek Distance (Chopta to Tungnath):** ~3.5 km (Paved stone trail; 2-3 hours uphill trek)
+* **Trek Distance (Tungnath to Chandrashila Summit):** ~1.5 km (Steep trail; 1.5 hours)
+* **Trek Difficulty:** Easy to Moderate (Ideal for beginners, families, and fit trekkers)
+* **Maximum Altitude:** 4,000 m (13,123 ft) at Chandrashila Peak
+
+---
+
+## How to Reach Chopta from Haridwar (Taxi Route)
+
+The road journey from Haridwar to Chopta takes you through scenic valleys along the Mandakini and Alaknanda rivers:
+
+1. **Haridwar to Rishikesh** (24 km | 45 mins)
+2. **Rishikesh to Devprayag** (74 km | 2.5 hrs) — *Confluence of Bhagirathi & Alaknanda rivers.*
+3. **Devprayag to Rudraprayag** (70 km | 2 hrs) — *Confluence of Alaknanda & Mandakini rivers.*
+4. **Rudraprayag to Augustmuni / Kund** (30 km | 1 hr)
+5. **Kund to Ukhimath** (15 km | 30 mins) — *Winter seat of Lord Kedarnath.*
+6. **Ukhimath to Chopta** (30 km | 1 hr) — *Scenic drive through Kedarnath Wildlife Sanctuary.*
+
+---
+
+## Haridwar to Chopta Taxi Rental Options
+
+Hiring a private AC vehicle from Smart Choice Tour and Travels ensures a comfortable drive through winding mountain roads with an experienced hill driver:
+
+* **Swift Dzire / Etios (Sedan):** Best for small groups of 2-4 travelers with light luggage.
+* **Maruti Ertiga / Toyota Innova Crysta (SUV):** Ideal for family trips (4-6 passengers) requiring extra comfort and luggage space.
+* **Tempo Traveller (12 / 16 Seater):** Perfect for college trekking groups, corporate outings, and larger family tours.
+
+*Note: Taxi fare varies based on vehicle type, number of travel days, season, and whether you include sightseeing stops in Rishikesh, Ukhimath, or Deoria Tal. Contact our Haridwar desk at **+91 8273490102** or via WhatsApp for a current quote.*
+
+---
+
+## Suggested 3-Day Chopta Tungnath Itinerary from Haridwar
+
+### Day 1: Haridwar to Chopta (225 km | 7-8 hrs)
+- Depart early morning from Haridwar Railway Station or hotel.
+- Scenic drive along the Alaknanda and Mandakini rivers via Devprayag and Rudraprayag.
+- Enjoy lunch at Devprayag or Srinagar.
+- Arrive at Chopta by late afternoon. Check-in to Swiss camps or local eco-lodges. Enjoy sunset over the Himalayan peaks.
+
+### Day 2: Chopta to Tungnath & Chandrashila Summit Trek
+- Early morning breakfast at Chopta (6:00 AM).
+- Begin the 3.5 km paved trek from Chopta to Tungnath Temple.
+- Offer prayers at the ancient **Tungnath Temple** (highest Shiva temple).
+- Continue 1.5 km further up to **Chandrashila Peak** for breathtaking 360-degree panoramic views of Nanda Devi, Trishul, Chaukhamba, and Kedar peaks.
+- Trek back down to Chopta by afternoon. Optional evening side trip to **Deoria Tal lake** near Sari village. Overnight stay at Chopta.
+
+### Day 3: Chopta to Haridwar via Ukhimath & Rishikesh (225 km)
+- After breakfast, begin the return drive to Haridwar.
+- Visit Omkareshwar Temple in Ukhimath (winter seat of Kedarnath and Madhyamaheshwar).
+- Stop at Rishikesh for evening Ganga Aarti at Triveni Ghat or drop off at Haridwar Railway Station.
+
+---
+
+## Best Time to Visit Chopta & Tungnath
+
+* **Summer (April to June):** Pleasant weather (10°C to 25°C), blooming red rhododendrons, clear skies. Best for family treks.
+* **Autumn (September to November):** Crisp, clear mountain views, post-monsoon green bugyals, stargazing nights.
+* **Winter (December to March):** Snow trekking experience! Chopta gets covered in thick snow. Note that Tungnath Temple closes during severe winter, and the deity is moved to Ukhimath.
+
+---
+
+## Chopta Trip Cost & Booking Advice
+
+Taxi fare and tour package pricing depend on vehicle selection, duration, accommodation choices (camps vs hotels), and travel season. Rather than relying on generic estimated costs, we invite travelers to contact **Smart Choice Tour and Travels** directly for an exact customized quote matching your travel dates and group size.
+
+---
+
+## Frequently Asked Questions (FAQs)
+
+### Is the Chopta Tungnath trek difficult for beginners?
+No, the trek from Chopta to Tungnath (3.5 km) is on a well-paved stone path with gradual inclines, making it accessible for beginners, children, and fit senior citizens. The final 1.5 km climb to Chandrashila Peak is steeper and requires moderate stamina.
+
+### Is accommodation available in Chopta?
+Yes, Chopta offers comfortable Swiss tent camps, eco-resorts, and budget guest houses. Due to environmental regulations, electricity in some camps is solar-powered.
+
+### How do I book a private cab from Haridwar to Chopta?
+You can book a cab by calling **+91 8273490102**, sending a message on **WhatsApp**, or filling our [online booking form](/book).
+
+---
+
+## Related Travel & Pilgrimage Guides
+
+- [Uttarakhand Travel Planning Guide](/guides/uttarakhand-travel-planning)
+- [Kedarnath Travel & Trek Guide 2026](/guides/kedarnath-travel-guide-2026)
+- [Haridwar Local Sightseeing Guide](/guides/top-10-locations-haridwar)
+- [Rishikesh Adventure & Spiritual Guide](/guides/rishikesh-adventure-spiritual-guide)
+
+---
+
+**Planning your Chopta Tungnath adventure?**  
+Book a private cab or customized trip with **Smart Choice Tour and Travels**. Call **+91 8273490102** or chat on **WhatsApp** for customized quotes. Explore our [Car Rental Fleet](/cars) or submit a [booking request](/book) today!
+`
+  },
 ];

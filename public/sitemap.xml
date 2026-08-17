@@ -229,4 +229,28 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Haridwar to Kedarnath Taxi Fare Rate Chart 2026 -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/guides/haridwar-to-kedarnath-taxi-fare-2026</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Best Time to Visit Char Dham Yatra 2026 -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/guides/best-time-to-visit-char-dham-yatra-2026</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Chopta Tungnath Trek & Taxi Package from Haridwar -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/guides/chopta-tungnath-trek-taxi-package-from-haridwar</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
