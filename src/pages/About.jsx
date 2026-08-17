@@ -71,7 +71,7 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-primary/20 rounded-3xl transform translate-x-4 translate-y-4" />
             <img
-              src="/images/About/Gemini_Generated_Image_uw1i3nuw1i3nuw1i.png"
+              src="/images/About/about.webp"
               alt="Smart Choice Tour & Travels — Travel agency based in Haridwar, Uttarakhand"
               className="rounded-3xl relative z-10 w-full object-cover h-80 shadow-2xl"
               loading="lazy"

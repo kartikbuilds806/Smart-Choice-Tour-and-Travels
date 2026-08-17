@@ -14,11 +14,11 @@ const images = [
   { src: '/images/Our Gallery/WhatsApp Image 2026-03-27 at 21.14.41.jpeg', alt: 'Scenic Uttarakhand mountain road — Smart Choice Tour driver' },
   { src: '/images/Our Gallery/WhatsApp Image 2026-03-27 at 21.14.42.jpeg', alt: 'Happy customer review Smart Choice Tour & Travels Haridwar' },
   { src: '/images/Our Gallery/WhatsApp Image 2026-03-27 at 21.14.50.jpeg', alt: 'Tour group Char Dham Yatra from Haridwar — Smart Choice Tours' },
-  { src: '/images/Popular Destination/haridwar.jpg', alt: 'Har Ki Pauri Haridwar — popular destination Smart Choice Tours' },
-  { src: '/images/Popular Destination/Rishikesh.jpg', alt: 'Laxman Jhula Rishikesh — Rishikesh tour package Smart Choice' },
+  { src: '/images/Popular Destination/haridwar.webp', alt: 'Har Ki Pauri Haridwar — popular destination Smart Choice Tours' },
+  { src: '/images/Popular Destination/Rishikesh.webp', alt: 'Laxman Jhula Rishikesh — Rishikesh tour package Smart Choice' },
   { src: '/images/Popular Destination/Kedarnath-Temple.webp', alt: 'Kedarnath Temple Uttarakhand — Kedarnath tour from Haridwar' },
-  { src: '/images/Popular Destination/Mussorie.jpg', alt: 'Mussoorie Queen of Hills — Mussoorie tour package Haridwar' },
-  { src: '/images/Popular Destination/Nainital.jpg', alt: 'Nainital Lake view — Nainital tour package from Haridwar' },
+  { src: '/images/Popular Destination/Mussorie.webp', alt: 'Mussoorie Queen of Hills — Mussoorie tour package Haridwar' },
+  { src: '/images/Popular Destination/Nainital.webp', alt: 'Nainital Lake view — Nainital tour package from Haridwar' },
 ];
 
 const Gallery = () => {

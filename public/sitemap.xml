@@ -157,9 +157,25 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Char Dham Registration Guide -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/guides/char-dham-yatra-registration-guide-2026</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Kedarnath Guide -->
   <url>
     <loc>https://www.thesmartchoicetours.com/guides/kedarnath-travel-guide-2026</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Kedarnath Helicopter Guide -->
+  <url>
+    <loc>https://www.thesmartchoicetours.com/guides/kedarnath-helicopter-booking-guide-2026</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

@@ -7,19 +7,19 @@ import FAQSection from '../components/FAQSection';
 import TrustBadges from '../components/TrustBadges';
 
 const heroImages = [
-  '/images/Home page/haridwar.jpg',
-  '/images/Home page/Mussorie.jpg',
-  '/images/Home page/Nainital.jpg',
+  '/images/Home page/haridwar.webp',
+  '/images/Home page/Mussorie.webp',
+  '/images/Home page/Nainital.webp',
   '/images/Home page/Kedarnath-Temple.webp'
 ];
 
 const destinations = [
-  { city: 'Haridwar', img: '/images/Popular Destination/haridwar.jpg', link: '/packages/haridwar-sightseeing', desc: 'Ganga Aarti & Temples' },
-  { city: 'Rishikesh', img: '/images/Popular Destination/Rishikesh.jpg', link: '/packages/rishikesh', desc: 'Adventure & Spirituality' },
+  { city: 'Haridwar', img: '/images/Popular Destination/haridwar.webp', link: '/packages/haridwar-sightseeing', desc: 'Ganga Aarti & Temples' },
+  { city: 'Rishikesh', img: '/images/Popular Destination/Rishikesh.webp', link: '/packages/rishikesh', desc: 'Adventure & Spirituality' },
   { city: 'Kedarnath', img: '/images/Popular Destination/Kedarnath-Temple.webp', link: '/packages/kedarnath', desc: 'Sacred Jyotirlinga' },
   { city: 'Badrinath', img: '/images/Popular Destination/badrinath.webp', link: '/packages/badrinath', desc: 'Char Dham Shrine' },
-  { city: 'Mussoorie', img: '/images/Popular Destination/Mussorie.jpg', link: '/packages/mussoorie', desc: 'Queen of the Hills' },
-  { city: 'Nainital', img: '/images/Popular Destination/Nainital.jpg', link: '/packages/nainital', desc: 'Lake City Escape' },
+  { city: 'Mussoorie', img: '/images/Popular Destination/Mussorie.webp', link: '/packages/mussoorie', desc: 'Queen of the Hills' },
+  { city: 'Nainital', img: '/images/Popular Destination/Nainital.webp', link: '/packages/nainital', desc: 'Lake City Escape' },
 ];
 
 const reviews = [
@@ -58,8 +58,8 @@ const reviews = [
 const popularPackages = [
   { name: 'Char Dham Yatra', link: '/packages/char-dham-yatra', img: '/images/Popular Destination/Kedarnath-Temple.webp', duration: '12 Days', price: '₹15,000+' },
   { name: 'Kedarnath Tour', link: '/packages/kedarnath', img: '/images/Popular Destination/Kedarnath-Temple.webp', duration: '4 Days', price: '₹5,500+' },
-  { name: 'Mussoorie Trip', link: '/packages/mussoorie', img: '/images/Popular Destination/Mussorie.jpg', duration: '3 Days', price: '₹2,500+' },
-  { name: 'Nainital Package', link: '/packages/nainital', img: '/images/Popular Destination/Nainital.jpg', duration: '3 Days', price: '₹3,500+' },
+  { name: 'Mussoorie Trip', link: '/packages/mussoorie', img: '/images/Popular Destination/Mussorie.webp', duration: '3 Days', price: '₹2,500+' },
+  { name: 'Nainital Package', link: '/packages/nainital', img: '/images/Popular Destination/Nainital.webp', duration: '3 Days', price: '₹3,500+' },
 ];
 
 const homeFaqs = [

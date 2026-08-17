@@ -52,7 +52,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src="/images/Logo/Gemini_Generated_Image_uw1i3nuw1i3nuw1i.png" alt="Smart Choice Tour and Travels — Best Travel Agency in Haridwar" className="h-[3.3rem] w-auto" loading="eager" fetchpriority="high" width="132" height="52" decoding="async" />
+          <img src="/images/Logo/logo.webp" alt="Smart Choice Tour and Travels — Best Travel Agency in Haridwar" className="h-[3.3rem] w-auto" loading="eager" fetchpriority="high" width="132" height="52" decoding="async" />
         </Link>
 
         {/* Desktop Nav */}

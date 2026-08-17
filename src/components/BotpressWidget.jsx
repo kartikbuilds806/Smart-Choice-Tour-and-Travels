@@ -2,28 +2,43 @@ import { useEffect } from 'react';
 
 const BotpressWidget = () => {
   useEffect(() => {
-    // 1. Create inject script
-    const injectScript = document.createElement('script');
-    injectScript.src = 'https://cdn.botpress.cloud/webchat/v3.7/inject.js';
-    injectScript.async = true;
-    injectScript.id = 'botpress-inject-script';
+    let timerId;
 
-    // 2. Load the config script once the injection script is loaded
-    injectScript.onload = () => {
-      // Check if config script is already on page (safety check)
-      if (document.getElementById('botpress-config-script')) return;
+    const loadBotpress = () => {
+      if (document.getElementById('botpress-inject-script')) return;
 
-      const configScript = document.createElement('script');
-      configScript.src = 'https://files.bpcontent.cloud/2026/07/23/18/20260723180547-JF72J2Z2.js';
-      configScript.async = true;
-      configScript.id = 'botpress-config-script';
-      document.body.appendChild(configScript);
+      // 1. Create inject script
+      const injectScript = document.createElement('script');
+      injectScript.src = 'https://cdn.botpress.cloud/webchat/v3.7/inject.js';
+      injectScript.async = true;
+      injectScript.id = 'botpress-inject-script';
+
+      // 2. Load the config script once the injection script is loaded
+      injectScript.onload = () => {
+        if (document.getElementById('botpress-config-script')) return;
+
+        const configScript = document.createElement('script');
+        configScript.src = 'https://files.bpcontent.cloud/2026/07/23/18/20260723180547-JF72J2Z2.js';
+        configScript.async = true;
+        configScript.id = 'botpress-config-script';
+        document.body.appendChild(configScript);
+      };
+
+      document.body.appendChild(injectScript);
     };
 
-    document.body.appendChild(injectScript);
+    // Defer script injection until initial idle phase (2.5s) to preserve initial LCP
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(() => {
+        timerId = setTimeout(loadBotpress, 1500);
+      });
+    } else {
+      timerId = setTimeout(loadBotpress, 2500);
+    }
 
     // Cleanup on unmount
     return () => {
+      if (timerId) clearTimeout(timerId);
       // Remove the injected script elements
       const s1 = document.getElementById('botpress-inject-script');
       const s2 = document.getElementById('botpress-config-script');
