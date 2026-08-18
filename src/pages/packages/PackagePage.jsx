@@ -41,6 +41,15 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
               url: `https://www.thesmartchoicetours.com${pkg.slug}`
             }
           },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thesmartchoicetours.com' },
+              { '@type': 'ListItem', position: 2, name: 'Tour Packages', item: 'https://www.thesmartchoicetours.com/services' },
+              { '@type': 'ListItem', position: 3, name: pkg.name, item: `https://www.thesmartchoicetours.com${pkg.slug}` }
+            ]
+          },
           ...(pkg.faqs && pkg.faqs.length > 0 ? [{
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
@@ -184,6 +193,7 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
                   onClick={() => {
                     if (typeof window.gtag === 'function') {
                       window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                      window.gtag('event', 'package_cta_click', { event_category: 'Conversion', package_name: pkg.name, cta_type: 'whatsapp' });
                     }
                   }}
                 >
@@ -195,6 +205,7 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
                   onClick={() => {
                     if (typeof window.gtag === 'function') {
                       window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                      window.gtag('event', 'package_cta_click', { event_category: 'Conversion', package_name: pkg.name, cta_type: 'phone' });
                     }
                   }}
                 >
@@ -206,6 +217,7 @@ const PackagePage = ({ packageId, relatedPackages, relatedGuide }) => {
                   onClick={() => {
                     if (typeof window.gtag === 'function') {
                       window.gtag('event', 'package_enquiry', { package_name: pkg.name });
+                      window.gtag('event', 'package_cta_click', { event_category: 'Conversion', package_name: pkg.name, cta_type: 'form' });
                     }
                   }}
                 >

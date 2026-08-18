@@ -31,6 +31,39 @@ const Services = () => {
         <meta property="og:title" content="Tour Packages & Travel Services in Haridwar | Smart Choice" />
         <meta property="og:description" content="Explore tour packages & travel services from Haridwar. Book Char Dham Yatra, Kedarnath, outstation taxi & local sightseeing. Call +91 8273490102." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/services" />
+        <script type="application/ld+json">
+          {JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Service',
+              'name': 'Uttarakhand Tour Packages & Travel Services',
+              'provider': {
+                '@type': 'TravelAgency',
+                'name': 'Smart Choice Tour and Travels',
+                'telephone': '+91-8273490102',
+                'url': 'https://www.thesmartchoicetours.com'
+              },
+              'areaServed': 'Uttarakhand',
+              'hasOfferCatalog': {
+                '@type': 'OfferCatalog',
+                'name': 'Tour Packages',
+                'itemListElement': [
+                  { '@type': 'Offer', 'itemOffered': { '@type': 'TouristTrip', 'name': 'Char Dham Yatra Package' } },
+                  { '@type': 'Offer', 'itemOffered': { '@type': 'TouristTrip', 'name': 'Kedarnath Tour Package' } },
+                  { '@type': 'Offer', 'itemOffered': { '@type': 'TouristTrip', 'name': 'Haridwar Taxi Service' } }
+                ]
+              }
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.thesmartchoicetours.com' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Services & Tour Packages', 'item': 'https://www.thesmartchoicetours.com/services' }
+              ]
+            }
+          ])}
+        </script>
       </Helmet>
 
       <Breadcrumb items={[{ label: 'Home', path: '/' }, { label: 'Tour Packages & Services' }]} />

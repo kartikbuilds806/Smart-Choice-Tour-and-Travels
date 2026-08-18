@@ -5,20 +5,30 @@ import { FaCheckCircle, FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt, FaStar } from 'r
 import Breadcrumb from '../components/Breadcrumb';
 
 const About = () => {
-  const schemaData = {
-    '@context': 'https://schema.org',
-    '@type': 'AboutPage',
-    url: 'https://www.thesmartchoicetours.com/about',
-    name: 'About Smart Choice Tour and Travels — Haridwar Travel Agency',
-    description: 'Smart Choice Tour and Travels is a trusted travel agency in Haridwar, Uttarakhand, offering Char Dham Yatra, Kedarnath tours, Mussoorie packages, and taxi services.',
-    mainEntity: {
-      '@type': 'TravelAgency',
-      name: 'Smart Choice Tour and Travels',
-      foundingLocation: 'Haridwar, Uttarakhand, India',
-      areaServed: ['Haridwar', 'Rishikesh', 'Dehradun', 'Uttarakhand'],
-      knowsAbout: ['Char Dham Yatra', 'Kedarnath Tours', 'Mussoorie Packages', 'Taxi Services Haridwar'],
+  const schemaData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'AboutPage',
+      url: 'https://www.thesmartchoicetours.com/about',
+      name: 'About Smart Choice Tour and Travels — Haridwar Travel Agency',
+      description: 'Smart Choice Tour and Travels is a trusted travel agency in Haridwar, Uttarakhand, offering Char Dham Yatra, Kedarnath tours, Mussoorie packages, and taxi services.',
+      mainEntity: {
+        '@type': 'TravelAgency',
+        name: 'Smart Choice Tour and Travels',
+        foundingLocation: 'Haridwar, Uttarakhand, India',
+        areaServed: ['Haridwar', 'Rishikesh', 'Dehradun', 'Uttarakhand'],
+        knowsAbout: ['Char Dham Yatra', 'Kedarnath Tours', 'Mussoorie Packages', 'Taxi Services Haridwar'],
+      },
     },
-  };
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thesmartchoicetours.com' },
+        { '@type': 'ListItem', position: 2, name: 'About Us', item: 'https://www.thesmartchoicetours.com/about' }
+      ]
+    }
+  ];
 
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="pb-20">

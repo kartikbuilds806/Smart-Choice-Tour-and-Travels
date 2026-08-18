@@ -27,37 +27,47 @@ const Cars = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="pb-20">
       <Helmet>
-        <title>Taxi Service in Haridwar | Dehradun Airport Taxi & Rate Chart 2026</title>
-        <meta name="description" content="Book affordable taxi service in Haridwar & Dehradun airport transfers starting ₹1,200. Innova Crysta, Dzire & Tempo Traveller hire for Char Dham Yatra. Call +91 8273490102." />
+        <title>Haridwar Taxi Booking & Cab Rental Service | Smart Choice Tours</title>
+        <meta name="description" content="Instant Haridwar taxi booking & Dehradun airport cabs starting ₹1,200. Rent Innova Crysta, Dzire & Tempo Traveller for Char Dham Yatra. Call +91 8273490102." />
         <link rel="canonical" href="https://www.thesmartchoicetours.com/cars" />
-        <meta property="og:title" content="Taxi Service in Haridwar | Dehradun Airport Taxi & Rate Chart 2026" />
-        <meta property="og:description" content="Book affordable taxi service in Haridwar & Dehradun airport transfers starting ₹1,200. Innova Crysta, Dzire & Tempo Traveller hire for Char Dham Yatra. Call +91 8273490102." />
+        <meta property="og:title" content="Haridwar Taxi Booking & Cab Rental Service | Smart Choice Tours" />
+        <meta property="og:description" content="Instant Haridwar taxi booking & Dehradun airport cabs starting ₹1,200. Rent Innova Crysta, Dzire & Tempo Traveller for Char Dham Yatra. Call +91 8273490102." />
         <meta property="og:url" content="https://www.thesmartchoicetours.com/cars" />
         <script type="application/ld+json">
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'TaxiService',
-            'name': 'Smart Choice Taxi Service & Car Rental Haridwar',
-            'provider': {
-              '@type': 'TravelAgency',
-              'name': 'Smart Choice Tour and Travels',
-              'telephone': '+91-8273490102',
-              'url': 'https://www.thesmartchoicetours.com'
+          {JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'TaxiService',
+              'name': 'Smart Choice Taxi Service & Car Rental Haridwar',
+              'provider': {
+                '@type': 'TravelAgency',
+                'name': 'Smart Choice Tour and Travels',
+                'telephone': '+91-8273490102',
+                'url': 'https://www.thesmartchoicetours.com'
+              },
+              'areaServed': ['Haridwar', 'Dehradun', 'Rishikesh', 'Mussoorie', 'Kedarnath', 'Uttarakhand'],
+              'description': 'Outstation taxi service, Haridwar taxi booking, Dehradun airport transfer, Tempo Traveller rental, and car booking in Haridwar for Char Dham Yatra.'
             },
-            'areaServed': ['Haridwar', 'Dehradun', 'Rishikesh', 'Mussoorie', 'Kedarnath', 'Uttarakhand'],
-            'description': 'Outstation taxi service, Dehradun airport transfer, Tempo Traveller rental, and car booking in Haridwar for Char Dham Yatra.'
-          })}
+            {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.thesmartchoicetours.com' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Haridwar Taxi Booking & Cab Rental', 'item': 'https://www.thesmartchoicetours.com/cars' }
+              ]
+            }
+          ])}
         </script>
       </Helmet>
 
-      <Breadcrumb items={[{ label: 'Home', path: '/' }, { label: 'Taxi & Car Rental Haridwar' }]} />
+      <Breadcrumb items={[{ label: 'Home', path: '/' }, { label: 'Haridwar Taxi Booking' }]} />
 
       <div className="bg-slate-900 text-white py-20 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-900/30 z-0" />
         <div className="container mx-auto px-4 relative z-10">
           <p className="text-accent uppercase tracking-widest text-xs font-semibold mb-2">Best Car Rental & Outstation Cabs</p>
           <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-4">
-            Taxi Service in Haridwar & Dehradun Airport Transfers
+            Haridwar Taxi Booking & Airport Transfers
           </h1>
           <p className="text-blue-200 max-w-3xl mx-auto text-base md:text-lg">
             Innova Crysta · Swift Dzire · Ertiga · Tempo Traveller Hire — 24/7 Pickups, Transparent Rates & Hill Drivers

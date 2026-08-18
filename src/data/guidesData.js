@@ -120,10 +120,18 @@ Navigating the mountainous terrain and coordinating itineraries can be stressful
     title: 'Complete Char Dham Yatra Guide 2026 — Itinerary, Cost, Best Time & Tips',
     metaTitle: 'Char Dham Yatra Complete Guide 2026 | Itinerary & Tips',
     excerpt: 'Everything you need to know about the Char Dham Yatra from Haridwar — full itinerary, 2026 opening dates, cost breakdown, packing tips. Call +91 8273490102.',
+    summary: 'The Char Dham Yatra from Haridwar is an 11-night / 12-day pilgrimage covering Yamunotri, Gangotri, Kedarnath, and Badrinath. Mandatory online registration on the official Uttarakhand Tourist Care portal is required before travel. Book an AC cab with an experienced mountain driver for a safe trip.',
+    author: 'Smart Choice Travel Editorial Team • Local Haridwar Guide',
+    datePublished: '2026-04-01',
+    dateModified: '2026-06-01',
+    citations: [
+      { title: 'Uttarakhand Tourist Care Official Yatra Registration Portal', url: 'https://registrationandtouristcare.uk.gov.in/', source: 'Uttarakhand Tourism Development Board (UTDB)' },
+      { title: 'Garhwal Mandal Vikas Nigam (GMVN) Official Accommodation & Yatra Portal', url: 'https://gmvnonline.com/', source: 'Government of Uttarakhand' },
+      { title: 'Uttarakhand Tourism Development Board Official Portal', url: 'https://uttarakhandtourism.gov.in/', source: 'Government of Uttarakhand' }
+    ],
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Pilgrimage Guide',
     readTime: '15 min read',
-    datePublished: '2026-04-01',
     content: `
 # Complete Char Dham Yatra Guide 2026
 
@@ -229,10 +237,18 @@ We have been operating Char Dham Yatra tours from our base in Haridwar for years
     title: 'Kedarnath Travel Guide 2026 — How to Reach, Best Time, Trek & Tips',
     metaTitle: 'Kedarnath Travel Guide 2026 | Trek, Route & Helicopter Info',
     excerpt: 'Complete Kedarnath travel guide for 2026. Learn how to reach Kedarnath from Haridwar, trek details, best time to visit, helicopter options and what to pack.',
+    summary: 'Kedarnath Dham is located at 3,583m in Rudraprayag, Uttarakhand. Reach Gaurikund via taxi from Haridwar (250km / 9-10 hrs) followed by a 19km trek or official IRCTC helicopter service. Advance Yatra registration is mandatory.',
+    author: 'Smart Choice Travel Editorial Team • Local Haridwar Guide',
+    datePublished: '2026-04-10',
+    dateModified: '2026-06-01',
+    citations: [
+      { title: 'Official IRCTC HeliYatra Portal for Kedarnath', url: 'https://heliyatra.irctc.co.in/', source: 'IRCTC & Civil Aviation Authority Uttarakhand (UCADA)' },
+      { title: 'Shri Badrinath Shri Kedarnath Temple Committee (BKTC)', url: 'https://badrinath-kedarnath.uk.gov.in/', source: 'BKTC Official Portal' },
+      { title: 'Uttarakhand Tourist Care Registration System', url: 'https://registrationandtouristcare.uk.gov.in/', source: 'Government of Uttarakhand' }
+    ],
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Destination Guide',
     readTime: '12 min read',
-    datePublished: '2026-04-10',
     content: `
 # Kedarnath Travel Guide 2026
 
@@ -934,10 +950,17 @@ The iconic Naini Lake, evening Mall Road walks, and the charming Kumaon culture 
     title: 'Char Dham Yatra Registration 2026 — Step-by-Step E-Pass & Online Guide',
     metaTitle: 'Char Dham Yatra Registration 2026 | Step-by-Step E-Pass Guide',
     excerpt: 'Complete 2026 Char Dham Yatra registration guide. Learn official online E-Pass registration steps, Haridwar counter locations, documents & taxi transfers.',
+    summary: 'Char Dham Yatra registration is 100% mandatory for all pilgrims in 2026. Register online at registrationandtouristcare.uk.gov.in or via the Tourist Care Uttarakhand app to download your QR E-Pass before departing Haridwar.',
+    author: 'Smart Choice Travel Editorial Team • Local Haridwar Guide',
+    datePublished: '2026-05-10',
+    dateModified: '2026-06-01',
+    citations: [
+      { title: 'Official Uttarakhand Tourist Care Yatra Portal', url: 'https://registrationandtouristcare.uk.gov.in/', source: 'Government of Uttarakhand Tourism Department' },
+      { title: 'Uttarakhand Tourism Development Board (UTDB)', url: 'https://uttarakhandtourism.gov.in/', source: 'Government of Uttarakhand' }
+    ],
     image: '/images/Home page/haridwar.webp',
     category: 'Pilgrimage Logistics',
     readTime: '9 min read',
-    datePublished: '2026-05-10',
     content: `
 # Char Dham Yatra Registration Guide 2026 — Online E-Pass & Haridwar Counters
 
@@ -1032,35 +1055,29 @@ Yes, whether visiting one shrine or all four, registration is compulsory. View o
 
 ### How does Smart Choice Tour & Travels assist pilgrims with registration?
 We guide all our guest pilgrims through the online registration process prior to arrival in Haridwar, ensuring your E-Pass QR code is verified and ready before your cab trip commences.
-
----
-
-## Related Travel & Pilgrimage Guides
-
-- [Char Dham Yatra Complete Guide 2026 — Route Map, Dates & Tips](/guides/char-dham-yatra-complete-guide)
-- [Char Dham Yatra Cost 2026 — Complete Budget Guide from Haridwar](/guides/char-dham-yatra-budget-guide-2026)
-- [Kedarnath Helicopter Booking Guide 2026](/guides/kedarnath-helicopter-booking-guide-2026)
-
----
-
-**Planning your sacred journey from Haridwar?**  
-Book a private AC cab with an experienced mountain driver from Smart Choice Tour & Travels. Explore our [Char Dham Yatra Package](/packages/char-dham-yatra), [Do Dham Yatra Package](/packages/do-dham-yatra), or [book online](/book) today. Contact our Haridwar desk at **+91 8273490102** or chat on **WhatsApp** for instant assistance.
     `
   },
-
   {
     id: 'haridwar-to-kedarnath-taxi-fare-2026',
-    title: 'Haridwar to Kedarnath Taxi Fare Rate Chart 2026',
+    title: 'Haridwar to Kedarnath Taxi Fare Rate Chart 2026 | Smart Choice',
     metaTitle: 'Haridwar to Kedarnath Taxi Fare Rate Chart 2026 | Smart Choice',
     excerpt: 'Check Haridwar to Kedarnath taxi fare 2026 for Dzire (₹9,000+), Innova Crysta & Tempo Traveller. Haridwar to Gaurikund cab rates & booking. Call +91 8273490102.',
+    summary: 'Haridwar to Gaurikund (Kedarnath base) round-trip cab fare starts from ₹9,000 for Swift Dzire (4 pax), ₹16,000 for Innova Crysta, and ₹25,000 for Tempo Traveller. Fares include fuel, driver allowance, tolls, and parking.',
+    author: 'Smart Choice Travel Editorial Team • Local Haridwar Guide',
+    datePublished: '2026-06-01',
+    dateModified: '2026-06-01',
+    citations: [
+      { title: 'Uttarakhand Transport Department & State Toll Guidelines', url: 'https://transport.uk.gov.in/', source: 'Government of Uttarakhand Transport Department' },
+      { title: 'Official IRCTC HeliYatra Portal for Kedarnath', url: 'https://heliyatra.irctc.co.in/', source: 'IRCTC & UCADA' },
+      { title: 'Uttarakhand Tourist Care Yatra Registration Portal', url: 'https://registrationandtouristcare.uk.gov.in/', source: 'Government of Uttarakhand' }
+    ],
     image: '/images/Popular Destination/Kedarnath-Temple.webp',
     category: 'Taxi & Transport',
     readTime: '9 min read',
-    datePublished: '2026-06-01',
     content: `
 # Haridwar to Kedarnath Taxi Fare Rate Chart 2026
 
-Planning a spiritual journey to the sacred shrine of Kedarnath Dham from Haridwar? Hiring a reliable private taxi with an experienced mountain driver is the most comfortable and safe way to travel. The road journey from Haridwar to Gaurikund (the last motorable point for Kedarnath) covers approximately **240 kilometers** of winding Himalayan roads along the Mandakini and Alaknanda rivers, taking around **8 to 10 hours** depending on traffic and weather conditions.
+Planning a spiritual journey to the sacred shrine of Kedarnath Dham from Haridwar? Hiring a reliable private cab with an experienced mountain driver is the safest way to travel. The road journey from Haridwar to Gaurikund (the last motorable point for Kedarnath) covers approximately **240 kilometers** of winding Himalayan roads along the Mandakini and Alaknanda rivers, taking around **8 to 10 hours**. Explore our complete [Haridwar Taxi Booking & Cab Fleet](/cars) or view our specialized [Kedarnath Tour Package](/packages/kedarnath).
 
 At **Smart Choice Tour and Travels**, located right opposite Haridwar Railway Station in Bhimgoda, Haridwar, we offer transparent commercial taxi rentals with experienced hill drivers who know every turn of the Garhwal Himalayas.
 

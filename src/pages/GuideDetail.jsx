@@ -131,6 +131,28 @@ const GuideDetail = () => {
           {/* Article Content */}
           <div className="lg:col-span-2">
             <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-slate-100 prose prose-slate prose-lg max-w-none">
+              
+              {/* E-E-A-T Metadata Bar */}
+              <div className="flex flex-wrap items-center justify-between text-xs text-slate-500 bg-slate-50 p-4 rounded-xl mb-6 border border-slate-100">
+                <div>
+                  <span className="font-semibold text-slate-700">Author:</span> {guide.author || 'Smart Choice Travel Editorial Team • Local Haridwar Guide'}
+                </div>
+                <div className="flex space-x-4 mt-2 sm:mt-0">
+                  <span><strong>Published:</strong> {guide.datePublished || '2026-05-01'}</span>
+                  <span><strong>Updated:</strong> {guide.dateModified || '2026-06-01'}</span>
+                </div>
+              </div>
+
+              {/* GEO / AEO Extractable Summary Box */}
+              {(guide.summary || guide.excerpt) && (
+                <div className="bg-blue-50 border-l-4 border-primary p-4 rounded-r-xl mb-8">
+                  <p className="text-xs uppercase tracking-wider font-bold text-primary mb-1">Key Takeaway / Direct Answer</p>
+                  <p className="text-slate-800 font-medium text-sm leading-relaxed mb-0">
+                    {guide.summary || guide.excerpt}
+                  </p>
+                </div>
+              )}
+
               <ReactMarkdown
                 components={{
                   h1: ({ node, ...props }) => <h2 className="text-3xl font-bold font-poppins text-slate-800 mt-8 mb-4 border-b pb-2" {...props} />,
@@ -144,11 +166,40 @@ const GuideDetail = () => {
                   table: ({ node, ...props }) => <div className="overflow-x-auto mb-6"><table className="w-full border-collapse text-sm" {...props} /></div>,
                   th: ({ node, ...props }) => <th className="bg-primary text-white py-2 px-4 text-left font-semibold" {...props} />,
                   td: ({ node, ...props }) => <td className="border border-slate-200 py-2 px-4" {...props} />,
-                  a: ({ node, href, ...props }) => <Link to={href || '#'} className="text-primary font-medium hover:underline" {...props} />,
+                  a: ({ node, href, children, ...props }) => {
+                    const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'));
+                    return isExternal ? (
+                      <a href={href} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline" {...props}>
+                        {children}
+                      </a>
+                    ) : (
+                      <Link to={href || '#'} className="text-primary font-medium hover:underline" {...props}>
+                        {children}
+                      </Link>
+                    );
+                  },
                 }}
               >
                 {guide.content}
               </ReactMarkdown>
+
+              {/* Official Citations Block */}
+              {guide.citations && guide.citations.length > 0 && (
+                <div className="mt-10 pt-6 border-t border-slate-200 bg-slate-50 p-6 rounded-xl">
+                  <h4 className="text-base font-bold text-slate-800 mb-3 flex items-center">
+                    Official Tourism & Government References
+                  </h4>
+                  <ul className="space-y-2 text-xs text-slate-600">
+                    {guide.citations.map((c, i) => (
+                      <li key={i}>
+                        • <a href={c.url} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
+                            {c.title}
+                          </a> — {c.source}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
 
