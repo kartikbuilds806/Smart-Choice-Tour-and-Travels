@@ -7,10 +7,10 @@ import FAQSection from '../components/FAQSection';
 import TrustBadges from '../components/TrustBadges';
 
 const heroImages = [
-  '/images/Home page/haridwar.webp',
-  '/images/Home page/Mussorie.webp',
-  '/images/Home page/Nainital.webp',
-  '/images/Home page/Kedarnath-Temple.webp'
+  '/images/Home%20page/haridwar.webp',
+  '/images/Home%20page/Mussorie.webp',
+  '/images/Home%20page/Nainital.webp',
+  '/images/Home%20page/Kedarnath-Temple.webp'
 ];
 
 const destinations = [
@@ -318,7 +318,7 @@ const Home = () => {
                   <h3 className="text-xl font-semibold mb-3 text-slate-800">{service.title}</h3>
                   <p className="text-slate-600 mb-6 flex-grow">{service.desc}</p>
                   <Link to={service.link} className="text-primary font-medium hover:text-accent transition-colors uppercase tracking-wider text-sm flex items-center">
-                    Learn More <FaArrowRight className="ml-1" size={12} />
+                    Explore {service.title} <FaArrowRight className="ml-1" size={12} />
                   </Link>
                 </div>
               </motion.div>

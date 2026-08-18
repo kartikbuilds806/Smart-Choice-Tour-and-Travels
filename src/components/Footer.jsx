@@ -107,8 +107,8 @@ const Footer = () => {
       {/* SEO Popular Searches & Keyword Tag Cloud */}
       <div className="border-t border-slate-800/80 bg-slate-950/60 py-8">
         <div className="container mx-auto px-4 md:px-8">
-          <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Popular Searches & Destinations</h4>
-          <div className="flex flex-wrap gap-2 text-[11px] text-slate-500">
+          <h3 className="text-xs font-bold text-slate-300 uppercase tracking-widest mb-3">Popular Searches & Destinations</h3>
+          <div className="flex flex-wrap gap-2 text-[11px] text-slate-400">
             {[
               { tag: 'Travel agency Haridwar', path: '/about' },
               { tag: 'Char Dham Yatra package Haridwar', path: '/packages/char-dham-yatra' },
